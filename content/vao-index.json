@@ -1,0 +1,2876 @@
+{
+  "formatVersion": "0.5.0",
+  "vaoId": "https://vaoxr.modavis.org/vao/positivxr",
+  "releaseId": "https://vaoxr.modavis.org/vao/releases/0.5.0-2",
+  "contentVersion": "0.5.0-2",
+  "title": "PositivXR — Cuntz positive organ",
+  "description": "A browser-first virtual acoustic object for exploring, hearing, playing, and placing a Cuntz positive organ.",
+  "profiles": [
+    "https://w3id.org/modavis/vao/profile/core/0.5.0",
+    "https://w3id.org/modavis/vao/profile/dynamic-delivery/0.5.0",
+    "https://w3id.org/modavis/vao/profile/scientific/0.5.0",
+    "https://w3id.org/modavis/vao/profile/playable/0.5.0",
+    "https://w3id.org/modavis/vao/profile/multimodal/0.5.0",
+    "https://w3id.org/modavis/vao/profile/physical-instrument/0.5.0",
+    "https://w3id.org/modavis/vao/profile/spatial/0.5.0"
+  ],
+  "releaseBaseUrl": "/vao/releases/0.5.0-2/",
+  "workspaceBaseUrl": "/vao/releases/0.5.0-2/workspace/",
+  "manifest": {
+    "url": "/vao/releases/0.5.0-2/vao-manifest.json",
+    "byteSize": 1829038,
+    "sha256": "6efeed6c56639c524461b86b00d452fb15c1b9833a2b227eafe4c5a9865abbd6"
+  },
+  "releaseDescriptor": "/vao/releases/0.5.0-2/vao-release.json",
+  "conformance": "/vao/conformance.json",
+  "carriers": {
+    "bootstrap": {
+      "id": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/carriers/bootstrap",
+      "url": "/vao/releases/0.5.0-2/positivxr-bootstrap-0.5.0.vao"
+    },
+    "preservationClosure": {
+      "id": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/carriers/preservation-closure",
+      "url": "/vao/releases/0.5.0-2/positivxr-preservation-0.5.0.vao"
+    }
+  },
+  "realizations": {
+    "urn:vaoxr:realization:media:audio:stops:ged:36:opus": {
+      "path": "payload/media/audio/stops/ged/36.opus",
+      "byteSize": 56181,
+      "sha256": "521ee10080eaa49286e3fe2822d0951a2c14dc82ccf17ab2d8c8b0cf1f2fc8e0",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:36:m4a": {
+      "path": "payload/media/audio/stops/ged/36.m4a",
+      "byteSize": 74239,
+      "sha256": "5e3c7621dcafba8398594e007b8d8991abc584e8e7d9d9838eee532695b09e27",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:38:opus": {
+      "path": "payload/media/audio/stops/ged/38.opus",
+      "byteSize": 58735,
+      "sha256": "3ee63abcd6d9521a05077e8870b22b16981f5e170f39519c68fd845eabcb164e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:38:m4a": {
+      "path": "payload/media/audio/stops/ged/38.m4a",
+      "byteSize": 74029,
+      "sha256": "c7e3d6398d829e17ddd25fcb28f1d575e8c000b9d86b6594bf2515479463ecf3",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:40:opus": {
+      "path": "payload/media/audio/stops/ged/40.opus",
+      "byteSize": 67523,
+      "sha256": "019ca97d4a223f00970b5764ee3fa5b0d2193b4cf98494dc0c1371556e6274e0",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:40:m4a": {
+      "path": "payload/media/audio/stops/ged/40.m4a",
+      "byteSize": 74001,
+      "sha256": "f3eedf1cfbbad6c62883bfac0e5a18269231db11bf3de9f695e7c702717a8720",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:41:opus": {
+      "path": "payload/media/audio/stops/ged/41.opus",
+      "byteSize": 63542,
+      "sha256": "38396a8b4265217644904ccfeda9c4513984d3565023f610ad06aeb7f66304a8",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:41:m4a": {
+      "path": "payload/media/audio/stops/ged/41.m4a",
+      "byteSize": 74033,
+      "sha256": "932dbc52be1c648569428959ed8b87953d7c4e3b0af69a9d23f3696bdca55f1a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:43:opus": {
+      "path": "payload/media/audio/stops/ged/43.opus",
+      "byteSize": 61441,
+      "sha256": "ce93a39b23d68a15e3cb10169fe3c7a5fd8bed54ee341a3c20992ed6d51045ee",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:43:m4a": {
+      "path": "payload/media/audio/stops/ged/43.m4a",
+      "byteSize": 74034,
+      "sha256": "d9532715022471d3dc4fbde2a7afd68518215c1bdf758384f9f1b5826eab1aca",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:45:opus": {
+      "path": "payload/media/audio/stops/ged/45.opus",
+      "byteSize": 68695,
+      "sha256": "5bc713bb443cf29646607d780d858d63f6cdc807f0c9ab3cd25bcaf88a9e17ad",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:45:m4a": {
+      "path": "payload/media/audio/stops/ged/45.m4a",
+      "byteSize": 74157,
+      "sha256": "278d9535af4d9d3c61ed2c8aa6a2a6d283fe98ffc28c71021143e37dee8418cd",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:46:opus": {
+      "path": "payload/media/audio/stops/ged/46.opus",
+      "byteSize": 59448,
+      "sha256": "106f418c84ced8e01de797cb1e62c68b80f174f9dc347977eaffce15a4667dc7",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:46:m4a": {
+      "path": "payload/media/audio/stops/ged/46.m4a",
+      "byteSize": 74049,
+      "sha256": "10e9495f9105223245a7b33683cf336dffb00d6d5910e6bfac0863927fb917eb",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:47:opus": {
+      "path": "payload/media/audio/stops/ged/47.opus",
+      "byteSize": 60525,
+      "sha256": "222cb73bd1dcb39f83820ec6252cfa7eab1e0a249fc5c259c183e05dfa39d7f5",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:47:m4a": {
+      "path": "payload/media/audio/stops/ged/47.m4a",
+      "byteSize": 74013,
+      "sha256": "3ff4c93b8d9ac9f016de3b656c17cd60658f20198f47f417af7c8a5d64e2e56a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:48:opus": {
+      "path": "payload/media/audio/stops/ged/48.opus",
+      "byteSize": 62326,
+      "sha256": "f6a0b1326831a986bf8991995289a2cd531dd2be7fdf34b99b02e79b105fe454",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:48:m4a": {
+      "path": "payload/media/audio/stops/ged/48.m4a",
+      "byteSize": 74073,
+      "sha256": "b7991f005650f887a7b75c43968787ca51f34c6581639d01540a4a6557f1dbb2",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:49:opus": {
+      "path": "payload/media/audio/stops/ged/49.opus",
+      "byteSize": 61530,
+      "sha256": "ac573be1caa5c47c269d6c806f3c8299348d9f243fe1aa93706f8505afb55138",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:49:m4a": {
+      "path": "payload/media/audio/stops/ged/49.m4a",
+      "byteSize": 74053,
+      "sha256": "337a5f18e72f95e0abd2b17ef1b01f1be2c45edf6df94e298efdb2ce9afe7ed5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:50:opus": {
+      "path": "payload/media/audio/stops/ged/50.opus",
+      "byteSize": 62234,
+      "sha256": "f075209cf9d01d630da15bf379e262097b20cdb76ca4911a86a1b0c6fd9c406e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:50:m4a": {
+      "path": "payload/media/audio/stops/ged/50.m4a",
+      "byteSize": 74050,
+      "sha256": "9edf45093f9ec96e43e1294af09a802fb1e347b7afc584d1135f6987d2aeddb9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:51:opus": {
+      "path": "payload/media/audio/stops/ged/51.opus",
+      "byteSize": 65143,
+      "sha256": "d5141b4332578832d3e8a83588476e7e5627698bd0354b258704dcc7be7fd22e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:51:m4a": {
+      "path": "payload/media/audio/stops/ged/51.m4a",
+      "byteSize": 74110,
+      "sha256": "efb7529e274e7ded3ca49b06547fcaba651d844de9b45d7bc1fa593afe6009ce",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:52:opus": {
+      "path": "payload/media/audio/stops/ged/52.opus",
+      "byteSize": 62724,
+      "sha256": "e1f5b416795dcf3268ca01ac54f25a70b0cecfc7f46bdeaa119cbe4960e9fbba",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:52:m4a": {
+      "path": "payload/media/audio/stops/ged/52.m4a",
+      "byteSize": 74154,
+      "sha256": "0d2f04d197e3b581be989e6f56a03390bcece260ba935872b64d8baf088e191c",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:53:opus": {
+      "path": "payload/media/audio/stops/ged/53.opus",
+      "byteSize": 62538,
+      "sha256": "05a939e041150f7980e653c270628ad533ebf8e62c01c0d3572fc79a9902449a",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:53:m4a": {
+      "path": "payload/media/audio/stops/ged/53.m4a",
+      "byteSize": 74099,
+      "sha256": "28231844fb43d304de23d8ca87b7fec6598736321a3161df9d0f52102bb8b329",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:54:opus": {
+      "path": "payload/media/audio/stops/ged/54.opus",
+      "byteSize": 72653,
+      "sha256": "0fe08a69316913edefa9e98615e73f0646c9477ff58ca0d54b78c75e015d6bc7",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:54:m4a": {
+      "path": "payload/media/audio/stops/ged/54.m4a",
+      "byteSize": 74178,
+      "sha256": "0ef9c2326574dacaea68aa57c5eecf31bf44c3f866d5aaacf985be717f73f341",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:55:opus": {
+      "path": "payload/media/audio/stops/ged/55.opus",
+      "byteSize": 72262,
+      "sha256": "8cf0148b375343c2bebc6269b94ecf01f22c9aff3d202004abc3669b30439fd9",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:55:m4a": {
+      "path": "payload/media/audio/stops/ged/55.m4a",
+      "byteSize": 74222,
+      "sha256": "06c25ace1b023c909abc1f07108eacaedf31bf3d8f43e88b8aa326e4cd18a988",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:56:opus": {
+      "path": "payload/media/audio/stops/ged/56.opus",
+      "byteSize": 69137,
+      "sha256": "22d38758d1f8beece1fb039772f74acbb2bbd617808b96647516abefeecf6989",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:56:m4a": {
+      "path": "payload/media/audio/stops/ged/56.m4a",
+      "byteSize": 74062,
+      "sha256": "315b796c9063b6be0b859c6f48fdb611528f6adce21cbce01730e22842f7da08",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:57:opus": {
+      "path": "payload/media/audio/stops/ged/57.opus",
+      "byteSize": 78300,
+      "sha256": "6331df201bf663649519eaa7a57dfedba391b291059cf5482237daf08509bc45",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:57:m4a": {
+      "path": "payload/media/audio/stops/ged/57.m4a",
+      "byteSize": 74198,
+      "sha256": "4bca8cb6a4b74f39d5a886902f521b8cd4ee2edd251f9b574700bc5e0583b996",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:58:opus": {
+      "path": "payload/media/audio/stops/ged/58.opus",
+      "byteSize": 73995,
+      "sha256": "ce3ac6866143d049154b5b5ec928e58293ae236b3d0bb020bd003f3efe5e5045",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:58:m4a": {
+      "path": "payload/media/audio/stops/ged/58.m4a",
+      "byteSize": 74126,
+      "sha256": "dc683fa2f03907d73d7b2cf5fe760571c8e289302f15f40fc3509fe3ca968f8d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:59:opus": {
+      "path": "payload/media/audio/stops/ged/59.opus",
+      "byteSize": 70785,
+      "sha256": "da7591eff38a8c3a14367b8dc1a5dfb9296a17e60f04cd48f1270013dd9ddf9e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:59:m4a": {
+      "path": "payload/media/audio/stops/ged/59.m4a",
+      "byteSize": 74029,
+      "sha256": "f645085a653e96e4a38a99e3d0e38c55106cb9e449633b72961a51d8d5d89ddc",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:60:opus": {
+      "path": "payload/media/audio/stops/ged/60.opus",
+      "byteSize": 74058,
+      "sha256": "8d8bf8256a5880beb3407b585e27141a4fc05a3cdb4d8f125985ae94207f6565",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:60:m4a": {
+      "path": "payload/media/audio/stops/ged/60.m4a",
+      "byteSize": 74083,
+      "sha256": "f0b9ae179e4140f086b4caeb83a08af2ea61107002dbdd11fc41b098b8bb520f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:61:opus": {
+      "path": "payload/media/audio/stops/ged/61.opus",
+      "byteSize": 72391,
+      "sha256": "6e71ecf1c0d760e1b92782dd90f188bcd3546f1fda2e17ab3d8e6d7789952e8d",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:61:m4a": {
+      "path": "payload/media/audio/stops/ged/61.m4a",
+      "byteSize": 74264,
+      "sha256": "d261eba750a602e5e9c070a6eface934abd451d1b5a2140ef5e304d7c1707e9d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:62:opus": {
+      "path": "payload/media/audio/stops/ged/62.opus",
+      "byteSize": 77923,
+      "sha256": "f072ced6b49b4144b3eaa28d215d23fe7425a8d1cef899a654c9760521818f00",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:62:m4a": {
+      "path": "payload/media/audio/stops/ged/62.m4a",
+      "byteSize": 74110,
+      "sha256": "4d86c25b321f98a694054d15184967f26527534a1dbdac6a31196dff57a2f6b6",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:63:opus": {
+      "path": "payload/media/audio/stops/ged/63.opus",
+      "byteSize": 84756,
+      "sha256": "2bb566603e1ca7fd12204900b30cc3616798ad0210f70a673a5aaccb6fdda13c",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:63:m4a": {
+      "path": "payload/media/audio/stops/ged/63.m4a",
+      "byteSize": 74123,
+      "sha256": "8a23eab87c00805b21382e39a03d402eaebdbf0a9d2b1fa39617c6a25b0dcd9f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:64:opus": {
+      "path": "payload/media/audio/stops/ged/64.opus",
+      "byteSize": 78506,
+      "sha256": "0e2444b2d769a1a2442bfe7e07f3ae784fcf95b338682cccb106c1ee4c8acc9a",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:64:m4a": {
+      "path": "payload/media/audio/stops/ged/64.m4a",
+      "byteSize": 74095,
+      "sha256": "2f5eea59d96a9e0519da3e18c4fc4bebc8c54cd9f2b1808860d7d37bc2b4c2f1",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:65:opus": {
+      "path": "payload/media/audio/stops/ged/65.opus",
+      "byteSize": 81203,
+      "sha256": "38344417191858f256dc83da6dc44ad692a63f6f57b251f0007af39e6e953be3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:65:m4a": {
+      "path": "payload/media/audio/stops/ged/65.m4a",
+      "byteSize": 74107,
+      "sha256": "5d7586da87fb861d8109623b64e34ee1e49f6cb9946d48d33e5e69d182b7759f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:66:opus": {
+      "path": "payload/media/audio/stops/ged/66.opus",
+      "byteSize": 84744,
+      "sha256": "ec4a5035ef41386ad48d6ca3c586b49a70745984f85526934167dc7046ac0ae2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:66:m4a": {
+      "path": "payload/media/audio/stops/ged/66.m4a",
+      "byteSize": 74125,
+      "sha256": "aa293c3b7b3600c1e383bb361692f4aa70ae0adde9f327ba850d7bdb975eac20",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:67:opus": {
+      "path": "payload/media/audio/stops/ged/67.opus",
+      "byteSize": 84693,
+      "sha256": "417704fd62d24d0c75e10c1ba06749c3204f8fe0253dad43a5a73b27e7863a08",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:67:m4a": {
+      "path": "payload/media/audio/stops/ged/67.m4a",
+      "byteSize": 74126,
+      "sha256": "945ddd6408c0195fe776a4fd8853065f8e86a6b1f64c7f3305c7fdf68874cc5d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:68:opus": {
+      "path": "payload/media/audio/stops/ged/68.opus",
+      "byteSize": 77332,
+      "sha256": "8ee759ade5e131f4a2d3901d59384b6fa4c01710a9d2b2f0bf2a56ef2e7dd990",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:68:m4a": {
+      "path": "payload/media/audio/stops/ged/68.m4a",
+      "byteSize": 74078,
+      "sha256": "fbb0a62ec5dd16ae3e1c02875748e60acfcda1047f0ca5c87739e522156139e6",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:69:opus": {
+      "path": "payload/media/audio/stops/ged/69.opus",
+      "byteSize": 85672,
+      "sha256": "31bd3c92be21ef2271d82cb2415ceabc6152002bd43009abf56d7a135fadb246",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:69:m4a": {
+      "path": "payload/media/audio/stops/ged/69.m4a",
+      "byteSize": 74124,
+      "sha256": "4883ad71ccf325f242011fe4fa13bee9279de65f2858fa1d70b76f3058a17770",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:70:opus": {
+      "path": "payload/media/audio/stops/ged/70.opus",
+      "byteSize": 87211,
+      "sha256": "f5a948d9ba12ca752679332de11f00523b6dea761771784a78a3c2186f0ced76",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:70:m4a": {
+      "path": "payload/media/audio/stops/ged/70.m4a",
+      "byteSize": 74099,
+      "sha256": "f0476152f1e18bb758267ffa3766b5ac7219964f980137e2fa166732515a3dd4",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:71:opus": {
+      "path": "payload/media/audio/stops/ged/71.opus",
+      "byteSize": 82944,
+      "sha256": "1d11a8cefbd260139213a776d0634f276cdb3eda536b8423721fe43b83f14b11",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:71:m4a": {
+      "path": "payload/media/audio/stops/ged/71.m4a",
+      "byteSize": 74101,
+      "sha256": "12c12210c6e95b7e7acc7ee592c38758f4de7a44b585c735ce7241779f5f61aa",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:72:opus": {
+      "path": "payload/media/audio/stops/ged/72.opus",
+      "byteSize": 88388,
+      "sha256": "18f7dfc6a3e8a2f9d36720b9e21ba0c1ff9f36655c28ec9c31a6c6d67b61ba36",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:72:m4a": {
+      "path": "payload/media/audio/stops/ged/72.m4a",
+      "byteSize": 74120,
+      "sha256": "e91e74372ec4a94b25dd1d005a304f40b7360498d33c540305a36f84f22eded0",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:73:opus": {
+      "path": "payload/media/audio/stops/ged/73.opus",
+      "byteSize": 87751,
+      "sha256": "28fa78aa002d25e7d3fd1e83029d43f6fe2e8ee8108e72c5ec2fe7cf450a5a53",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:73:m4a": {
+      "path": "payload/media/audio/stops/ged/73.m4a",
+      "byteSize": 74078,
+      "sha256": "fcc0e33b1cc88555c361332d7662e7d0d93893de60c4cd62a37253a24b8ba458",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:74:opus": {
+      "path": "payload/media/audio/stops/ged/74.opus",
+      "byteSize": 88803,
+      "sha256": "e14e559c67c37cd8757f051e5528626162c5c0b6c1c02f48f72ff269a56e3df3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:74:m4a": {
+      "path": "payload/media/audio/stops/ged/74.m4a",
+      "byteSize": 74016,
+      "sha256": "ce6598d1bd3277d230fcd906f66c3ae9d3f89d2dfed584e6be710930b5a0eef9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:75:opus": {
+      "path": "payload/media/audio/stops/ged/75.opus",
+      "byteSize": 92063,
+      "sha256": "194789c4c2e815874d550c0d0740ff6bce67fdb321e09f0e8a5209d5d45cd0bf",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:75:m4a": {
+      "path": "payload/media/audio/stops/ged/75.m4a",
+      "byteSize": 74047,
+      "sha256": "5bdd7baeffe1113f00ae48964026ee0af834987d96b6319f4fd578e0ba6157bf",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:76:opus": {
+      "path": "payload/media/audio/stops/ged/76.opus",
+      "byteSize": 94744,
+      "sha256": "4cb3df1c4f474f15e0c55c8023ca39b0b9e4e362e498e24de84a9a07cfe11647",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:76:m4a": {
+      "path": "payload/media/audio/stops/ged/76.m4a",
+      "byteSize": 74134,
+      "sha256": "b9946636fce4096ab211b36de9ae71313b011656409c4ba115cf4ae2f54657e9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:77:opus": {
+      "path": "payload/media/audio/stops/ged/77.opus",
+      "byteSize": 91133,
+      "sha256": "8bc753d0f55c869c37dbe38d9faea8504d31b50ed69a9a828bd2eda57da7ce03",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:77:m4a": {
+      "path": "payload/media/audio/stops/ged/77.m4a",
+      "byteSize": 74138,
+      "sha256": "b64c8a8e35069b421963a25e7bb35f73f2f692b7cc8df3cda0d75980233bdf45",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:78:opus": {
+      "path": "payload/media/audio/stops/ged/78.opus",
+      "byteSize": 90543,
+      "sha256": "d86662f1aeafa86dc3de8352c014a911e998b951889a1704e1ab8eef05738894",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:78:m4a": {
+      "path": "payload/media/audio/stops/ged/78.m4a",
+      "byteSize": 74121,
+      "sha256": "e82750be800906f927a88716a883fa60430919ef681c08af77dcb53a64b9aff3",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:79:opus": {
+      "path": "payload/media/audio/stops/ged/79.opus",
+      "byteSize": 92690,
+      "sha256": "9ca3223ec6d7b0c4e4ae3aee9e33e549e4e818dd3d8e72474e3090180234382a",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:79:m4a": {
+      "path": "payload/media/audio/stops/ged/79.m4a",
+      "byteSize": 74186,
+      "sha256": "fc49111c55fd38b69c8f7374aa0f293e0acbea5cb22632b2828fbfc3f5303341",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:80:opus": {
+      "path": "payload/media/audio/stops/ged/80.opus",
+      "byteSize": 90072,
+      "sha256": "30bec12b3a0e7f5ddfc5023e4a6ae870d667ff4cc6d8e9cb7ab58f443c103eee",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:80:m4a": {
+      "path": "payload/media/audio/stops/ged/80.m4a",
+      "byteSize": 74145,
+      "sha256": "82e381d5c0fe4af45ae1c03b94cd21fb24d3558dd960005e3a97f72d6728b493",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:81:opus": {
+      "path": "payload/media/audio/stops/ged/81.opus",
+      "byteSize": 86119,
+      "sha256": "39ee0ef1f847fc1cbf68a1ed330137ee60b22612c9adcad849084a9089dbd861",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:81:m4a": {
+      "path": "payload/media/audio/stops/ged/81.m4a",
+      "byteSize": 74118,
+      "sha256": "37fa390c0a3409dda5e11648faeafb165dce0ca4980ec68b5ed184a05ab14976",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:82:opus": {
+      "path": "payload/media/audio/stops/ged/82.opus",
+      "byteSize": 102693,
+      "sha256": "1fc8e1b29ed29d0fa886a5af4122536c226a11f3da48bbcc7de296be407a7237",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:82:m4a": {
+      "path": "payload/media/audio/stops/ged/82.m4a",
+      "byteSize": 74138,
+      "sha256": "382c9d7ef3ce2bc73d38f8cac52954034418e0fe919553338773d13351eb667a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:83:opus": {
+      "path": "payload/media/audio/stops/ged/83.opus",
+      "byteSize": 91733,
+      "sha256": "c30dc7d95aba3fd84f4743988114e600de06df14fdfacdb81584a03866ee36c3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:83:m4a": {
+      "path": "payload/media/audio/stops/ged/83.m4a",
+      "byteSize": 74097,
+      "sha256": "bcd7768d252100e887f56edaec7921ebbde8581f4251c360c60ac637aca8af2c",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:84:opus": {
+      "path": "payload/media/audio/stops/ged/84.opus",
+      "byteSize": 100206,
+      "sha256": "abbc5f5ff17e3b0ff400ef7809646a9256fc220152453d0263855168067aa1c8",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:84:m4a": {
+      "path": "payload/media/audio/stops/ged/84.m4a",
+      "byteSize": 74101,
+      "sha256": "b599e093125676b13730db185493d08868c0802d0e090a265f97cf10dc826f12",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:36:opus": {
+      "path": "payload/media/audio/stops/princ4/36.opus",
+      "byteSize": 60684,
+      "sha256": "dc0d5ab321e05119c740a59f4523007a861212721aaf5189608cb27289fb2013",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:36:m4a": {
+      "path": "payload/media/audio/stops/princ4/36.m4a",
+      "byteSize": 74130,
+      "sha256": "4b2a0fa810234a829f354ff8b4100839172a03b4f99803f627d64636b98533d8",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:38:opus": {
+      "path": "payload/media/audio/stops/princ4/38.opus",
+      "byteSize": 65289,
+      "sha256": "a48340f1dce5fda3166dd306d93f2adcccda8e8cd9d943e2bc313815e032f375",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:38:m4a": {
+      "path": "payload/media/audio/stops/princ4/38.m4a",
+      "byteSize": 74055,
+      "sha256": "6c210f2f6fd0a6243d70330aa09b7dedd6975b4f2e94f62c14191a385dd46dd6",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:40:opus": {
+      "path": "payload/media/audio/stops/princ4/40.opus",
+      "byteSize": 64308,
+      "sha256": "a328af711fc389219084fc756413dec594158661cc913f0bc7e921b94cda1369",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:40:m4a": {
+      "path": "payload/media/audio/stops/princ4/40.m4a",
+      "byteSize": 74098,
+      "sha256": "6640418a98c4038d78976b575f6c8f96208ee9872ce6458e0af4e386ae827dd9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:41:opus": {
+      "path": "payload/media/audio/stops/princ4/41.opus",
+      "byteSize": 66378,
+      "sha256": "e4f33fbd01e523efd390d6ccd7cea1172e40b10c20645d1abe293d867d118306",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:41:m4a": {
+      "path": "payload/media/audio/stops/princ4/41.m4a",
+      "byteSize": 74099,
+      "sha256": "d6c1ee792be89814c8affeb4fb7dbd699d506396e04d713a207aa528b48dda68",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:43:opus": {
+      "path": "payload/media/audio/stops/princ4/43.opus",
+      "byteSize": 70023,
+      "sha256": "8d304293facfe9594c873edbcc7d7f2b59b709e8f9b0a6d6933085cb1c13c914",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:43:m4a": {
+      "path": "payload/media/audio/stops/princ4/43.m4a",
+      "byteSize": 74252,
+      "sha256": "1912b5bd05031e440834883f53cc3004f126d0acc744bffc29cd03eeb0c42727",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:45:opus": {
+      "path": "payload/media/audio/stops/princ4/45.opus",
+      "byteSize": 71951,
+      "sha256": "43e6a8a76b1405a42764a35fde18ab6249cb333b72379d7cc2853e4aadba2ea3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:45:m4a": {
+      "path": "payload/media/audio/stops/princ4/45.m4a",
+      "byteSize": 74202,
+      "sha256": "169f5d8fa1a3e69bafe316633ff28f10a48142ddc8df6b0f61c5c586ea72bf7e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:46:opus": {
+      "path": "payload/media/audio/stops/princ4/46.opus",
+      "byteSize": 74253,
+      "sha256": "dde10ba17911284cd9dafdc2899b0fa55f7d44cba7ceb03b68028e0105f6fd6f",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:46:m4a": {
+      "path": "payload/media/audio/stops/princ4/46.m4a",
+      "byteSize": 74011,
+      "sha256": "6fe66dacf6ca6c8c1798c5c62ac0f53ee865c36c35ab1c39918d4b7431d78466",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:47:opus": {
+      "path": "payload/media/audio/stops/princ4/47.opus",
+      "byteSize": 77714,
+      "sha256": "672d8921ebb9727379b5f574e975a6befecf9ea113fd5df30aa8b421397f4389",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:47:m4a": {
+      "path": "payload/media/audio/stops/princ4/47.m4a",
+      "byteSize": 74050,
+      "sha256": "8bcce7962232f03d6e85005e50026c0b1941b43883f3971b2bda800313fc4833",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:48:opus": {
+      "path": "payload/media/audio/stops/princ4/48.opus",
+      "byteSize": 77178,
+      "sha256": "abad1cfcc4bbde0307e04a546c7adf52da4a119d0f8ddac67622399d83df6c10",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:48:m4a": {
+      "path": "payload/media/audio/stops/princ4/48.m4a",
+      "byteSize": 74078,
+      "sha256": "f907254520a677c13cdc247c7e93a93e16c3b6c9a46f60c2f0a340c5d11af506",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:49:opus": {
+      "path": "payload/media/audio/stops/princ4/49.opus",
+      "byteSize": 76554,
+      "sha256": "423fa6ff82af9b45488270e38e311622a62926c0a09e85d0e9c08486abf7b858",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:49:m4a": {
+      "path": "payload/media/audio/stops/princ4/49.m4a",
+      "byteSize": 74121,
+      "sha256": "7444b70025c80dbe2bc244cdc18fb4fd1a40d872c5403932bc9c334570e2f676",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:50:opus": {
+      "path": "payload/media/audio/stops/princ4/50.opus",
+      "byteSize": 79184,
+      "sha256": "7f8061c5f33a784c6c11e7bc80f87347c02b5d39985b95f01718b3faf6b44c97",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:50:m4a": {
+      "path": "payload/media/audio/stops/princ4/50.m4a",
+      "byteSize": 74055,
+      "sha256": "ea9f6cfa0f2ebedf2936ee9603ff511a33dc7cfb75bc4b361b6001b86fb4d48d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:51:opus": {
+      "path": "payload/media/audio/stops/princ4/51.opus",
+      "byteSize": 78172,
+      "sha256": "1bf2d7092c34112829c83049cf42f675cc6e34c926f290579df583a2f366f1b4",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:51:m4a": {
+      "path": "payload/media/audio/stops/princ4/51.m4a",
+      "byteSize": 74124,
+      "sha256": "355106bdf9971071c18ad0fc38e06f23cb58fc538fee428317ca5a665c8cd6a6",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:52:opus": {
+      "path": "payload/media/audio/stops/princ4/52.opus",
+      "byteSize": 82707,
+      "sha256": "e4c92fd3f07c1b776e33bb6496423b77c1bd0207a1018439edff905fae5050f2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:52:m4a": {
+      "path": "payload/media/audio/stops/princ4/52.m4a",
+      "byteSize": 74027,
+      "sha256": "0195f36247d6817c750eef5fd3f3afc0f16983d153c1d2bca69ce5a740ec1fe9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:53:opus": {
+      "path": "payload/media/audio/stops/princ4/53.opus",
+      "byteSize": 80869,
+      "sha256": "5646420b5b5782227ddc4059d9aeb3cbf0d441a2088fdcabf84772489cc8ef40",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:53:m4a": {
+      "path": "payload/media/audio/stops/princ4/53.m4a",
+      "byteSize": 74125,
+      "sha256": "d31ce8384dc0e8760facf93aa973a24a7bd4ec4003dd1c98e2e2b028da51a828",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:54:opus": {
+      "path": "payload/media/audio/stops/princ4/54.opus",
+      "byteSize": 78337,
+      "sha256": "f65811bcfd7b7c68142f7b4508ada349063ad73b8eed8550a9d946879a1c7b37",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:54:m4a": {
+      "path": "payload/media/audio/stops/princ4/54.m4a",
+      "byteSize": 74095,
+      "sha256": "17f7a4b968698cffcd94975bb07ada626ac6d2661e0a142958d97c5027d2dda4",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:55:opus": {
+      "path": "payload/media/audio/stops/princ4/55.opus",
+      "byteSize": 84706,
+      "sha256": "a6929b86d9c6141b7f42a04fbd2df3970bacb03dc967854703deb1ab3c8e499b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:55:m4a": {
+      "path": "payload/media/audio/stops/princ4/55.m4a",
+      "byteSize": 74086,
+      "sha256": "1270472dc5fe0dae4a57a6dc54910309386d1c8cff5092e595d03873bca46454",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:56:opus": {
+      "path": "payload/media/audio/stops/princ4/56.opus",
+      "byteSize": 89038,
+      "sha256": "9380f8370429d83871838b65bef981884621cbe18a65be59fbb9b9f0614d8d7c",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:56:m4a": {
+      "path": "payload/media/audio/stops/princ4/56.m4a",
+      "byteSize": 74139,
+      "sha256": "5876f83235a3aae78ee275b7037e25fd5bebf6bf91dafa76a26e8e6f10967c3c",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:57:opus": {
+      "path": "payload/media/audio/stops/princ4/57.opus",
+      "byteSize": 84792,
+      "sha256": "2c9adf31ca7320b20758d917c9e1c9f933abb51829a90727bff26fe7d85df8a9",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:57:m4a": {
+      "path": "payload/media/audio/stops/princ4/57.m4a",
+      "byteSize": 74160,
+      "sha256": "00fc86c8dee22498b6a4f2d2df45c0440a1baf89d6c2aa992c957950af3a5790",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:58:opus": {
+      "path": "payload/media/audio/stops/princ4/58.opus",
+      "byteSize": 87202,
+      "sha256": "15ef628fe3d5913ec8f6813fbc21848645daca58fa7173d7941628402cc17b99",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:58:m4a": {
+      "path": "payload/media/audio/stops/princ4/58.m4a",
+      "byteSize": 74089,
+      "sha256": "1fe14d7d9cab8cab7b06aea163d2c530cc604414ac34327b866b74eca4fd2a8e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:59:opus": {
+      "path": "payload/media/audio/stops/princ4/59.opus",
+      "byteSize": 88081,
+      "sha256": "bbb36a3d24b96170fe54b33396568f88c7882578b7c2476c4b5cb98d244a74d2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:59:m4a": {
+      "path": "payload/media/audio/stops/princ4/59.m4a",
+      "byteSize": 74093,
+      "sha256": "9b69cf46b2d2e9061e67a9883e1f3a063ee9feb3648695ec7c738c0635e5e9eb",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:60:opus": {
+      "path": "payload/media/audio/stops/princ4/60.opus",
+      "byteSize": 84675,
+      "sha256": "eb67b6ae7d7c5a070557ec5e9abbad7db31aeabf5e5f901dae920783536a81b8",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:60:m4a": {
+      "path": "payload/media/audio/stops/princ4/60.m4a",
+      "byteSize": 74058,
+      "sha256": "0bd701fefba6a54e5a72e748cd69764862c1857cd1abeb8288e057fe2ff45de7",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:61:opus": {
+      "path": "payload/media/audio/stops/princ4/61.opus",
+      "byteSize": 96898,
+      "sha256": "8194f0e83a9423b4032059c34ab27ac244af0609ace125ff2ac868a40a24c4a5",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:61:m4a": {
+      "path": "payload/media/audio/stops/princ4/61.m4a",
+      "byteSize": 74095,
+      "sha256": "c6cdf336d13bcd40a9e445668625cc470ae143f195420eeb0b528dde30cdd6f8",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:62:opus": {
+      "path": "payload/media/audio/stops/princ4/62.opus",
+      "byteSize": 92881,
+      "sha256": "60b290d795c8c0264ec2412542c0833f28394f8d7b2423dc5c0385d577dc7352",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:62:m4a": {
+      "path": "payload/media/audio/stops/princ4/62.m4a",
+      "byteSize": 74105,
+      "sha256": "99cbe735412c377835893de9e94534991dd9b0aff5cbff95417e48f972ab1075",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:63:opus": {
+      "path": "payload/media/audio/stops/princ4/63.opus",
+      "byteSize": 91627,
+      "sha256": "fce9e4a7e2b507d007ef3364d2ca0cf8c498e22aeba5cf388ce184bffbb03f5b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:63:m4a": {
+      "path": "payload/media/audio/stops/princ4/63.m4a",
+      "byteSize": 74096,
+      "sha256": "f62880b8ede9f025541b99d6c8ddaee040832ce0a48897099fb2dceb58d477ca",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:64:opus": {
+      "path": "payload/media/audio/stops/princ4/64.opus",
+      "byteSize": 90647,
+      "sha256": "c3f32396c237c4fc1b566644275b36fd28d771f0e3c5b366de9d2ddeba9d0979",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:64:m4a": {
+      "path": "payload/media/audio/stops/princ4/64.m4a",
+      "byteSize": 74090,
+      "sha256": "361471c5d2040bf329257763c55cebcc9adf785013dac10c16e3a40ffc3b6e02",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:65:opus": {
+      "path": "payload/media/audio/stops/princ4/65.opus",
+      "byteSize": 102678,
+      "sha256": "30bdef06f98626cd578cdf8fd89298c9cc048cc32692c54eb5facf0d193b6102",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:65:m4a": {
+      "path": "payload/media/audio/stops/princ4/65.m4a",
+      "byteSize": 74141,
+      "sha256": "a68e185efe76acf96254549a8d7398ddee5329d8afbcb2702d7173342b8edc74",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:66:opus": {
+      "path": "payload/media/audio/stops/princ4/66.opus",
+      "byteSize": 102705,
+      "sha256": "0ba01d3ebad58ef1f676b3b8fedf14f64f69f841e1d59867de0064769fb41e71",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:66:m4a": {
+      "path": "payload/media/audio/stops/princ4/66.m4a",
+      "byteSize": 74087,
+      "sha256": "d72b8ab10fa2ff3d50a42a81ce1cb23fef8bf8f64591f27c2f379b796f2ae192",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:67:opus": {
+      "path": "payload/media/audio/stops/princ4/67.opus",
+      "byteSize": 105042,
+      "sha256": "0963d616c86d922dd2125c0bb1ac001d7cc291d580ac79158c2bb719ae7234ba",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:67:m4a": {
+      "path": "payload/media/audio/stops/princ4/67.m4a",
+      "byteSize": 74067,
+      "sha256": "99c30521e7e0560a32d3b07267f5fd3588fb7d8f88dce8df06a907584819f4fb",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:68:opus": {
+      "path": "payload/media/audio/stops/princ4/68.opus",
+      "byteSize": 103266,
+      "sha256": "96c360a915c5550319593912c35c0cb54a89957767ca38c7322b4df62e950cad",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:68:m4a": {
+      "path": "payload/media/audio/stops/princ4/68.m4a",
+      "byteSize": 74111,
+      "sha256": "c43bfe7de8c5054e6118bf435abfec6c61c92cc4e09a0175d39395ac6a8fd5e6",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:69:opus": {
+      "path": "payload/media/audio/stops/princ4/69.opus",
+      "byteSize": 96672,
+      "sha256": "bbcaec043ee050ec13bb592620679166b038706d147cc3d39d8904ab9d9569d5",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:69:m4a": {
+      "path": "payload/media/audio/stops/princ4/69.m4a",
+      "byteSize": 74101,
+      "sha256": "4bb352695a9d35b1f3377de96a658703e1851fe4a0d21edbf40ecf6b0cd2f3d9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:70:opus": {
+      "path": "payload/media/audio/stops/princ4/70.opus",
+      "byteSize": 109330,
+      "sha256": "9519696e9e0994c0a6907a7ae792beba52427af612dbd0cdc5f49bad2e09d5c5",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:70:m4a": {
+      "path": "payload/media/audio/stops/princ4/70.m4a",
+      "byteSize": 74097,
+      "sha256": "70574b1df66363d2193d1fb1a114b079e46729a0ff73adfe51096c5beeee8fea",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:71:opus": {
+      "path": "payload/media/audio/stops/princ4/71.opus",
+      "byteSize": 106376,
+      "sha256": "45731e362ddcf486c5c5dfd76a7b6b2c90f23f82d8bffdc2e7e9a7758824cb38",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:71:m4a": {
+      "path": "payload/media/audio/stops/princ4/71.m4a",
+      "byteSize": 74146,
+      "sha256": "84ecf998eb70868954a15df3304d9309696a218ece1b09e3e40dedeebdf96c14",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:72:opus": {
+      "path": "payload/media/audio/stops/princ4/72.opus",
+      "byteSize": 111579,
+      "sha256": "006389086142c70b5e1e1597c05819e7125d680e23232f128a67acb2460a3958",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:72:m4a": {
+      "path": "payload/media/audio/stops/princ4/72.m4a",
+      "byteSize": 74124,
+      "sha256": "35a38b2b535a2a2a5f0d60cc482cf149ee08b127f1d43fc30e810db78653f174",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:73:opus": {
+      "path": "payload/media/audio/stops/princ4/73.opus",
+      "byteSize": 113022,
+      "sha256": "3d3b57989d54d7c56a2da8ccc4bb8bbc8c3f7ace42eb4e591b4e99564d3ed921",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:73:m4a": {
+      "path": "payload/media/audio/stops/princ4/73.m4a",
+      "byteSize": 74120,
+      "sha256": "efbfecc4a5e5171471fea43fd2b6b04828f3958f5b2e5c0e976027f955330786",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:74:opus": {
+      "path": "payload/media/audio/stops/princ4/74.opus",
+      "byteSize": 113395,
+      "sha256": "ea0f9af58099fdf7c57a5794bd9bd2614d9a24bf053f318204d951173db8c0f2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:74:m4a": {
+      "path": "payload/media/audio/stops/princ4/74.m4a",
+      "byteSize": 74141,
+      "sha256": "4399da34faa637bc1e3b309a182191ae06faecf2dd6739e17fe8fc3ecd07fbbe",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:75:opus": {
+      "path": "payload/media/audio/stops/princ4/75.opus",
+      "byteSize": 113884,
+      "sha256": "6053780869f1f9ceddad7a30116e636cfa2fe2391a4884bb3510e3f482547353",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:75:m4a": {
+      "path": "payload/media/audio/stops/princ4/75.m4a",
+      "byteSize": 74132,
+      "sha256": "56a0012cc47d0671dbb4370e44a73a62ca869b38b02b5944c4a91a06eb60a924",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:76:opus": {
+      "path": "payload/media/audio/stops/princ4/76.opus",
+      "byteSize": 116393,
+      "sha256": "47074c5aae3b3a5cef3347649c9e4300918b7dced6ee8eda2af14603f1d05e24",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:76:m4a": {
+      "path": "payload/media/audio/stops/princ4/76.m4a",
+      "byteSize": 74122,
+      "sha256": "8d5d24eb33b89b73e4d7311602574d099daabd14750d270af942982da14f5df5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:77:opus": {
+      "path": "payload/media/audio/stops/princ4/77.opus",
+      "byteSize": 101685,
+      "sha256": "faea97207a0d2b765368ade9ec71ee77465f058f86f84a9d4213cb5c5e803b5e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:77:m4a": {
+      "path": "payload/media/audio/stops/princ4/77.m4a",
+      "byteSize": 74098,
+      "sha256": "dc44ffbcc1eb29e4037495edc15b704954c8c3ec1574a766b6820edb9dab0153",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:78:opus": {
+      "path": "payload/media/audio/stops/princ4/78.opus",
+      "byteSize": 110682,
+      "sha256": "63be04269cfdd2c1a5257924c67c069dd7ad2f0077044505af7aab3ec41a0846",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:78:m4a": {
+      "path": "payload/media/audio/stops/princ4/78.m4a",
+      "byteSize": 74201,
+      "sha256": "6d20e8ea81c0b818d66f2c38ffeeccfdc0710afcfde26d4bbea6724a861e4ca2",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:79:opus": {
+      "path": "payload/media/audio/stops/princ4/79.opus",
+      "byteSize": 106946,
+      "sha256": "4fd4bf12bd4240999fc989f60c5c670ab0c550a4b403d8daa2243503f4a0d185",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:79:m4a": {
+      "path": "payload/media/audio/stops/princ4/79.m4a",
+      "byteSize": 74145,
+      "sha256": "d0f7b4f442068ae457eab1467cd0abc962cfe7f2d5aa5a55bc983b8771e47735",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:80:opus": {
+      "path": "payload/media/audio/stops/princ4/80.opus",
+      "byteSize": 115126,
+      "sha256": "2b0f24393af82b9c20baf15cb69fae3a7862d76a395ecfad28d4a88bb9ac53f6",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:80:m4a": {
+      "path": "payload/media/audio/stops/princ4/80.m4a",
+      "byteSize": 74164,
+      "sha256": "331bc72b3e92a9437aa754caa9b8f5afdf5fd9ae79120bb0e9953d5e8fd4cd2d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:81:opus": {
+      "path": "payload/media/audio/stops/princ4/81.opus",
+      "byteSize": 114241,
+      "sha256": "1873e8deccc6b023f36bb8932a385071921164d3c6b0ee44585d25ae31caf43b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:81:m4a": {
+      "path": "payload/media/audio/stops/princ4/81.m4a",
+      "byteSize": 74122,
+      "sha256": "b85605f709f23a79923603a7a8e98902721212b4e46e0ff2639241f0cb3a286f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:82:opus": {
+      "path": "payload/media/audio/stops/princ4/82.opus",
+      "byteSize": 114392,
+      "sha256": "340130a189e7f359b362e5b45364d6c3d87b7e19ca8f0ea8fbc883fc48ef0fd4",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:82:m4a": {
+      "path": "payload/media/audio/stops/princ4/82.m4a",
+      "byteSize": 74068,
+      "sha256": "0f0b9b5cf3e7716d8856518405d9afa83e49c678e04855bccd20afe5572412b5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:83:opus": {
+      "path": "payload/media/audio/stops/princ4/83.opus",
+      "byteSize": 109847,
+      "sha256": "25651b51e44465f1f6f098534826f5440995f831cabdb347bdf88c7f35ae481e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:83:m4a": {
+      "path": "payload/media/audio/stops/princ4/83.m4a",
+      "byteSize": 74112,
+      "sha256": "3c1a24178b5059a453fe474cecb3f5b942c663857bda86a4d9fd1c94562ac9fe",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:84:opus": {
+      "path": "payload/media/audio/stops/princ4/84.opus",
+      "byteSize": 97668,
+      "sha256": "4fcef3214d950828fa91e8c432a0e9910db026ac3cf5b785c60b0021ea8d5481",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:84:m4a": {
+      "path": "payload/media/audio/stops/princ4/84.m4a",
+      "byteSize": 74137,
+      "sha256": "9f5772f4167b45faca2d80ac5d6b39ebdd8fedafa5ac611e6a35a5b2512a134b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:36:opus": {
+      "path": "payload/media/audio/stops/princ2/36.opus",
+      "byteSize": 77840,
+      "sha256": "bf651c36a97da8b01a09e76e636f6b72e61db33a016d3b1e72d36f000a43c16c",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:36:m4a": {
+      "path": "payload/media/audio/stops/princ2/36.m4a",
+      "byteSize": 74043,
+      "sha256": "c75ba4e8e56a0d57463dca600c25bd67f41c1569ecb0de9983f463ee7322ab7f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:38:opus": {
+      "path": "payload/media/audio/stops/princ2/38.opus",
+      "byteSize": 81292,
+      "sha256": "d626da438f10b5ca3976909b89c96ff4dc2d2b39633939abf0dbc7c6353f0558",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:38:m4a": {
+      "path": "payload/media/audio/stops/princ2/38.m4a",
+      "byteSize": 74057,
+      "sha256": "6f96228f95e3794dd0990f4a8f114ff9de06ee13c0a435a0e80aea161568485f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:40:opus": {
+      "path": "payload/media/audio/stops/princ2/40.opus",
+      "byteSize": 81236,
+      "sha256": "20eaa1a6925305e5b7deb14a8d8e40e0564a2dc2065868777f8060e8070260c7",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:40:m4a": {
+      "path": "payload/media/audio/stops/princ2/40.m4a",
+      "byteSize": 74270,
+      "sha256": "f280983ae16d218b6fc3e6bd45d26299bc4a51146168aa715ccdb00101ec4dc3",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:41:opus": {
+      "path": "payload/media/audio/stops/princ2/41.opus",
+      "byteSize": 80868,
+      "sha256": "927d72605fd10ea69c708fdcd762bd104c9ca8e4ba36f45d7a9c6512b943debb",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:41:m4a": {
+      "path": "payload/media/audio/stops/princ2/41.m4a",
+      "byteSize": 74313,
+      "sha256": "756fdd465e269f2f8323c505af07630e9c36cec2ba04ab5a4d0788a98bb9c715",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:43:opus": {
+      "path": "payload/media/audio/stops/princ2/43.opus",
+      "byteSize": 87355,
+      "sha256": "6b0bcc74126abf0258425e069f3fbc3f516c552d3f8d0fabcb1a53c666de608f",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:43:m4a": {
+      "path": "payload/media/audio/stops/princ2/43.m4a",
+      "byteSize": 74073,
+      "sha256": "1330babeae5ec4e3c8276bc3fe30d0b253ebe30869de32682f133d42c7175e23",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:45:opus": {
+      "path": "payload/media/audio/stops/princ2/45.opus",
+      "byteSize": 84813,
+      "sha256": "c2aee741cd57079eff4722aae5a84d811e7331fbcd359aac0458544b3e6809bd",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:45:m4a": {
+      "path": "payload/media/audio/stops/princ2/45.m4a",
+      "byteSize": 74265,
+      "sha256": "01c0c7677882ef26363f15a266a71e707c022fcf1d711d5da5aa1681dc01e586",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:46:opus": {
+      "path": "payload/media/audio/stops/princ2/46.opus",
+      "byteSize": 87237,
+      "sha256": "ee0eac3c62a85f65c23b54fbebe66a6a9e0cc96a5bceb278bd820e78730ce7ee",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:46:m4a": {
+      "path": "payload/media/audio/stops/princ2/46.m4a",
+      "byteSize": 74332,
+      "sha256": "6f4ebde9d9fa78b89a7c93fd9d334bf3cfe61cfc9c6483efb49639d9646775d2",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:47:opus": {
+      "path": "payload/media/audio/stops/princ2/47.opus",
+      "byteSize": 89820,
+      "sha256": "cbe882cfff27b4a8458ad7d3df4ab1b185e0ef98194c6b1720e37b43efee76b7",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:47:m4a": {
+      "path": "payload/media/audio/stops/princ2/47.m4a",
+      "byteSize": 74243,
+      "sha256": "efd7958e6d377a88c7659303e0fc9ff6cd48370cc63944671b42c5a09b7d2ddd",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:48:opus": {
+      "path": "payload/media/audio/stops/princ2/48.opus",
+      "byteSize": 94391,
+      "sha256": "0e556e2893b59a958da83202e8afae21da2b40ee98a07dd826daaaae29e73ff8",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:48:m4a": {
+      "path": "payload/media/audio/stops/princ2/48.m4a",
+      "byteSize": 74285,
+      "sha256": "b75344601a342d8962ac2aa200603522d44c773dfdc4248f46a98fedac8255d8",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:49:opus": {
+      "path": "payload/media/audio/stops/princ2/49.opus",
+      "byteSize": 95325,
+      "sha256": "34871fa86762cd8e67f80876a783351bf1198dd092ff0dbc5e7091565f011bf3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:49:m4a": {
+      "path": "payload/media/audio/stops/princ2/49.m4a",
+      "byteSize": 74312,
+      "sha256": "5a467b668d0d6cc5b2da1e2dbb648b572440dccb45c4ff5bf41f9a3bda137152",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:50:opus": {
+      "path": "payload/media/audio/stops/princ2/50.opus",
+      "byteSize": 92488,
+      "sha256": "13116a4ceaf160317f4fdb7efa8ad4963a4257bff22c5f4bf39e06fa615c7c13",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:50:m4a": {
+      "path": "payload/media/audio/stops/princ2/50.m4a",
+      "byteSize": 74094,
+      "sha256": "7d1d6e60fc1eecd500a072e6b4947af191090774c46e9a4f85f568e1c6fe4420",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:51:opus": {
+      "path": "payload/media/audio/stops/princ2/51.opus",
+      "byteSize": 93404,
+      "sha256": "cbee3d3b22e6c27f0cf9a5d5937bf5f81bb5ffe798ee12b6d5e2df79a43f0912",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:51:m4a": {
+      "path": "payload/media/audio/stops/princ2/51.m4a",
+      "byteSize": 74145,
+      "sha256": "b391466b72495f74178a15737da76e40439f09cfad8300028d21ef3464eed274",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:52:opus": {
+      "path": "payload/media/audio/stops/princ2/52.opus",
+      "byteSize": 95593,
+      "sha256": "53f61c94997cdbda867875378b304ad1060ccbbbe8d667ee840d8df4da7e54b5",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:52:m4a": {
+      "path": "payload/media/audio/stops/princ2/52.m4a",
+      "byteSize": 74288,
+      "sha256": "4d1be868d2735b177b64d6974a2aeef87bda09118766166a0159df5aae035cbd",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:53:opus": {
+      "path": "payload/media/audio/stops/princ2/53.opus",
+      "byteSize": 97470,
+      "sha256": "850b8439fb8b3490fab6d9c59de4c59fef786b56b7ead1ad760e54ce47507f70",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:53:m4a": {
+      "path": "payload/media/audio/stops/princ2/53.m4a",
+      "byteSize": 74325,
+      "sha256": "ac63daf37503259c2a78f2a64e7204d0ea463ebbd15ccf84bb30e4872b9364a8",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:54:opus": {
+      "path": "payload/media/audio/stops/princ2/54.opus",
+      "byteSize": 103267,
+      "sha256": "6341e746e8e29d63e3ff07611f4d1f04f46647b18a34148258640dd3e48f80e8",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:54:m4a": {
+      "path": "payload/media/audio/stops/princ2/54.m4a",
+      "byteSize": 74319,
+      "sha256": "8a0b540398bdca03f21cfdd53050ead92d509e698c532d380207c47cc67587b9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:55:opus": {
+      "path": "payload/media/audio/stops/princ2/55.opus",
+      "byteSize": 114205,
+      "sha256": "a433626c5c45f20f6faa79831c7fe885f09de71b721bb851d5c2e455e0fad5bb",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:55:m4a": {
+      "path": "payload/media/audio/stops/princ2/55.m4a",
+      "byteSize": 74088,
+      "sha256": "accf246a11da1349828573b270c4286e38dfc9fc3c6a3e9974a09cf506d0db3a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:56:opus": {
+      "path": "payload/media/audio/stops/princ2/56.opus",
+      "byteSize": 108653,
+      "sha256": "f0bdfae824949ae3f265e3416d37fee77e6f4265115f7e516d3c21242dd732e2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:56:m4a": {
+      "path": "payload/media/audio/stops/princ2/56.m4a",
+      "byteSize": 74393,
+      "sha256": "af4054fbd3b48f47d8d6fd6ca6e3c37556d042f7237b3ecfdf7875e3fc6c5eac",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:57:opus": {
+      "path": "payload/media/audio/stops/princ2/57.opus",
+      "byteSize": 105547,
+      "sha256": "cae56bafd0b34603c1658c33859e130d46e3d8a12df94aeb0422d125ebd04797",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:57:m4a": {
+      "path": "payload/media/audio/stops/princ2/57.m4a",
+      "byteSize": 74141,
+      "sha256": "7d54ea6fe452e7641b7aee2b8eb54abb2489164ec17fed86775a659fcf87d483",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:58:opus": {
+      "path": "payload/media/audio/stops/princ2/58.opus",
+      "byteSize": 119439,
+      "sha256": "444d0451adc749bf9441b7a04eff254de75e8aab58db9eba3f41af1cab598400",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:58:m4a": {
+      "path": "payload/media/audio/stops/princ2/58.m4a",
+      "byteSize": 74118,
+      "sha256": "fe1fabbf6e07d1422f87fd6830e48a34d9929fd8121ff6985d4c27ac73aae56f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:59:opus": {
+      "path": "payload/media/audio/stops/princ2/59.opus",
+      "byteSize": 108901,
+      "sha256": "3fe84429fc3d3996be64fd4e12a5758203ff271133975eb666ed76b999e05164",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:59:m4a": {
+      "path": "payload/media/audio/stops/princ2/59.m4a",
+      "byteSize": 74281,
+      "sha256": "ea6462cf00a569028c171c3380ed61fbe01314666f980c6144f76b81c4236fd7",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:60:opus": {
+      "path": "payload/media/audio/stops/princ2/60.opus",
+      "byteSize": 113560,
+      "sha256": "b9b6688fe17fbf6cc802249078fa35aa85e1053760711afd4bfbe4a023b3053b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:60:m4a": {
+      "path": "payload/media/audio/stops/princ2/60.m4a",
+      "byteSize": 74145,
+      "sha256": "0c66bcd5fe60d89e3963b7d00c8809a9fc675f8ac07da0c82622d7200ce10aec",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:61:opus": {
+      "path": "payload/media/audio/stops/princ2/61.opus",
+      "byteSize": 115692,
+      "sha256": "461ac3b3cc84d156780ed900ad3e07fb8f42787f77df97f4494e611207ad1d8e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:61:m4a": {
+      "path": "payload/media/audio/stops/princ2/61.m4a",
+      "byteSize": 74274,
+      "sha256": "1975cb4d0ad1fd2f31ec2b5ca0a97a8a1ef40ee65198f9756ace5ccb7eefc9fa",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:62:opus": {
+      "path": "payload/media/audio/stops/princ2/62.opus",
+      "byteSize": 101066,
+      "sha256": "64e1dd638177311bc8c022bdd1e36b338602cc9571d7301b1d2100cc55117e45",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:62:m4a": {
+      "path": "payload/media/audio/stops/princ2/62.m4a",
+      "byteSize": 74340,
+      "sha256": "512d403f1ce50017cc706f46fff42503426ccb480cc03f70c0541f87f473d40b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:63:opus": {
+      "path": "payload/media/audio/stops/princ2/63.opus",
+      "byteSize": 107108,
+      "sha256": "a8dae89ea03944418f282ed9fbef5e31e14f9aff5d6aa0c35601f2a029e49047",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:63:m4a": {
+      "path": "payload/media/audio/stops/princ2/63.m4a",
+      "byteSize": 74355,
+      "sha256": "cd14e26dedd8b697f18fa29383d11dee4bdc80be3ce112ccdb4090d8986b266e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:64:opus": {
+      "path": "payload/media/audio/stops/princ2/64.opus",
+      "byteSize": 112315,
+      "sha256": "306d96a2f683affb6ac45efb50cf8df3caad8ad1353612ac2970ce6d1d981e9c",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:64:m4a": {
+      "path": "payload/media/audio/stops/princ2/64.m4a",
+      "byteSize": 74320,
+      "sha256": "d213575876a2103d2406a97ea60e5ad12b6e5ebb4489e431428697e1e2ae71a4",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:65:opus": {
+      "path": "payload/media/audio/stops/princ2/65.opus",
+      "byteSize": 117292,
+      "sha256": "72db0b04878fc5f3c6be780f737f5fec702d3d5558a5e760e6e3db5425e8282d",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:65:m4a": {
+      "path": "payload/media/audio/stops/princ2/65.m4a",
+      "byteSize": 74115,
+      "sha256": "b3e2dad25356d6e9f4e676eb0a298311e4a7c97c9cf16d518a5e93f9a06f7650",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:66:opus": {
+      "path": "payload/media/audio/stops/princ2/66.opus",
+      "byteSize": 117089,
+      "sha256": "8dca08944c7609fb5a326666ee64611b3eb8a60ec3d58ec35669daa2666f5881",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:66:m4a": {
+      "path": "payload/media/audio/stops/princ2/66.m4a",
+      "byteSize": 74259,
+      "sha256": "d4dde6953f4dba167a28a1e02d86727519246e8e741838538259584c58d96203",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:67:opus": {
+      "path": "payload/media/audio/stops/princ2/67.opus",
+      "byteSize": 106539,
+      "sha256": "f8eb019a5bc67d2031d7744cf8ecf199bc210c556a0136660980e20c9071eb48",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:67:m4a": {
+      "path": "payload/media/audio/stops/princ2/67.m4a",
+      "byteSize": 74248,
+      "sha256": "8e2b3b910ad4d709588fcb9af60d91c6edf52a24679de6fdaae82d6ebf5d09f5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:68:opus": {
+      "path": "payload/media/audio/stops/princ2/68.opus",
+      "byteSize": 103815,
+      "sha256": "41afe972d99d5307631781ef6ef3ea8450aea5fe0608e449939703ba1e8927b7",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:68:m4a": {
+      "path": "payload/media/audio/stops/princ2/68.m4a",
+      "byteSize": 74261,
+      "sha256": "111b8d1d6931818989b70f9173961e8f96110d8b021b15b58c8f80cc1e762653",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:69:opus": {
+      "path": "payload/media/audio/stops/princ2/69.opus",
+      "byteSize": 99825,
+      "sha256": "0f924922e877a021810bc75d30007cf141f1d2dd78856ab43cf5ff28cdd9f88e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:69:m4a": {
+      "path": "payload/media/audio/stops/princ2/69.m4a",
+      "byteSize": 74071,
+      "sha256": "e8b1f0feedb9018eeab1038ef526221a82b6bcc5a4ce63364727f65756917972",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:70:opus": {
+      "path": "payload/media/audio/stops/princ2/70.opus",
+      "byteSize": 104449,
+      "sha256": "80b61ce9625a7c47dd570eea1897320bfff07f3ffa7fbbf5a58b399e7d603a64",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:70:m4a": {
+      "path": "payload/media/audio/stops/princ2/70.m4a",
+      "byteSize": 74282,
+      "sha256": "5f90ae37950eae9ecacc69d702d975785dfa17980e4672ac409a18e755e402a2",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:71:opus": {
+      "path": "payload/media/audio/stops/princ2/71.opus",
+      "byteSize": 107557,
+      "sha256": "d03ddb68691d53fe1a4063319ad8255b0600781ee6aa13bff9c8c346d645be71",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:71:m4a": {
+      "path": "payload/media/audio/stops/princ2/71.m4a",
+      "byteSize": 74379,
+      "sha256": "62a13715981aac3199369c06f19473b1b00f5587544b2c7f1b8bcde706df9f4b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:72:opus": {
+      "path": "payload/media/audio/stops/princ2/72.opus",
+      "byteSize": 101854,
+      "sha256": "334f5d29af6c4ac8a6e09e727c7921f7a2ac02c9f84ddbd4903cd4e7cca6c393",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:72:m4a": {
+      "path": "payload/media/audio/stops/princ2/72.m4a",
+      "byteSize": 74287,
+      "sha256": "5e7998be584425d6d514ae3fe721c5e82f7053ca2a110b8c4f327c6b059131af",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:73:opus": {
+      "path": "payload/media/audio/stops/princ2/73.opus",
+      "byteSize": 112746,
+      "sha256": "357320b85b7687c757e8ba60b4f84549a0f2ff3da832ac21a49c673f7d223c03",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:73:m4a": {
+      "path": "payload/media/audio/stops/princ2/73.m4a",
+      "byteSize": 74139,
+      "sha256": "95675513d21eeda1acefbe96aeb3a8d03582998f898c76926430fcb5985c558c",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:74:opus": {
+      "path": "payload/media/audio/stops/princ2/74.opus",
+      "byteSize": 105715,
+      "sha256": "39a6f4fa37c4554d377ad6b6ceae1e9cc9aad7e7ad793a1a00189a93330d9853",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:74:m4a": {
+      "path": "payload/media/audio/stops/princ2/74.m4a",
+      "byteSize": 74389,
+      "sha256": "b9f5c7907dfe7305695c55badbd7eda3bc46c718457660bf66fb4d48d6d28323",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:75:opus": {
+      "path": "payload/media/audio/stops/princ2/75.opus",
+      "byteSize": 110604,
+      "sha256": "b3f30973723f1969201c3590e549c27f957bbc584eeda92f997896a4f44690b2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:75:m4a": {
+      "path": "payload/media/audio/stops/princ2/75.m4a",
+      "byteSize": 74125,
+      "sha256": "3c349e2c41daf0efd8dbea0fd9471f7c67f3cb34ce14c1598b5432e8ef5e5a3a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:76:opus": {
+      "path": "payload/media/audio/stops/princ2/76.opus",
+      "byteSize": 118738,
+      "sha256": "457b1a963b3948b8291ec5a068271bd56871f81288831820bd363d0baf2bd320",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:76:m4a": {
+      "path": "payload/media/audio/stops/princ2/76.m4a",
+      "byteSize": 74374,
+      "sha256": "dfedf4f2a2d6a5f0a551b5f16d48b78cb5e48722d3e974beec09ca99e5c5d1ee",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:77:opus": {
+      "path": "payload/media/audio/stops/princ2/77.opus",
+      "byteSize": 101803,
+      "sha256": "c5ffa473dc3362efb1c12b6702199896f4f144c41dacf2ade3b6e7d2194ed114",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:77:m4a": {
+      "path": "payload/media/audio/stops/princ2/77.m4a",
+      "byteSize": 74406,
+      "sha256": "26b7605dd64eae29b438817aea6aec0028db03376e173ab6713d5597aa48efae",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:78:opus": {
+      "path": "payload/media/audio/stops/princ2/78.opus",
+      "byteSize": 119920,
+      "sha256": "c107746bf5277557151305a8feb43546cc0252e88c0a76967287a6a633a9a0c6",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:78:m4a": {
+      "path": "payload/media/audio/stops/princ2/78.m4a",
+      "byteSize": 74138,
+      "sha256": "ae289b282e9d06e7bf8e65f1a9feaa7ecd242e5f1d24505fb6b9d870f654d433",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:79:opus": {
+      "path": "payload/media/audio/stops/princ2/79.opus",
+      "byteSize": 109967,
+      "sha256": "7523a7ce866eb2c9ccdf1373d6c758b233cf6b01f30f96905a08c0bdb12f0c02",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:79:m4a": {
+      "path": "payload/media/audio/stops/princ2/79.m4a",
+      "byteSize": 74020,
+      "sha256": "a97504be3866fb996eb0f4c7f3de74190556690a48fa31aa23dbc3312902bd65",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:80:opus": {
+      "path": "payload/media/audio/stops/princ2/80.opus",
+      "byteSize": 108955,
+      "sha256": "f6260842bc9e3f92d60226d3c035f72e59e99adcd40c60b25fa57132cffe4586",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:80:m4a": {
+      "path": "payload/media/audio/stops/princ2/80.m4a",
+      "byteSize": 74355,
+      "sha256": "120d3e5e5f20c793af3d02a25c98da9b90f74097f5f8aa23039c36be8c597e8f",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:81:opus": {
+      "path": "payload/media/audio/stops/princ2/81.opus",
+      "byteSize": 93251,
+      "sha256": "bd324cbe8ec1d42cacd58c25947bb68e4d8b71e6f5a6125be1d9c3630f166178",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:81:m4a": {
+      "path": "payload/media/audio/stops/princ2/81.m4a",
+      "byteSize": 74372,
+      "sha256": "0c2f835b9737c8eadb9796e84a7e2554787ee77c846b68a7e94aca8be452233a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:82:opus": {
+      "path": "payload/media/audio/stops/princ2/82.opus",
+      "byteSize": 95600,
+      "sha256": "420ec25a2d301d7eff130811af07166e2cb6287a760c1be80a4433dd5ed3a470",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:82:m4a": {
+      "path": "payload/media/audio/stops/princ2/82.m4a",
+      "byteSize": 74315,
+      "sha256": "d0c3bfd6d2665ba6b443e8c33840d03e486b31b2e04e5f916a51f124f08c9659",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:83:opus": {
+      "path": "payload/media/audio/stops/princ2/83.opus",
+      "byteSize": 118147,
+      "sha256": "c1932cfe6315fd94a6c36426e9cb208bce46de6ca941908e7710988697df8c8c",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:83:m4a": {
+      "path": "payload/media/audio/stops/princ2/83.m4a",
+      "byteSize": 74043,
+      "sha256": "7d9834cf1e41a1b32183818604f20ab08a13d7b2336b1475069131de3bff901d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:84:opus": {
+      "path": "payload/media/audio/stops/princ2/84.opus",
+      "byteSize": 94099,
+      "sha256": "ec308414978687a5738d0d78cfc6a71d63b4240713f0d3e566538dd6f3ae576b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:84:m4a": {
+      "path": "payload/media/audio/stops/princ2/84.m4a",
+      "byteSize": 74088,
+      "sha256": "67984790a8225dee01c1d9cc2dc295a746d294a9687b1e442e7fd5a843c08491",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:36:opus": {
+      "path": "payload/media/audio/stops/qui223/36.opus",
+      "byteSize": 70428,
+      "sha256": "54610633403b5ed36c5a6428449b4fd19ff77edd0e29b49110df7d395d84fbf3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:36:m4a": {
+      "path": "payload/media/audio/stops/qui223/36.m4a",
+      "byteSize": 74261,
+      "sha256": "576ae0fffb7aa62b15cb1eec5df4c7000867a08c4b51d587fca6fad3468b72bf",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:38:opus": {
+      "path": "payload/media/audio/stops/qui223/38.opus",
+      "byteSize": 72198,
+      "sha256": "518725b9dc37799ff71929ee059538895c54ab26e2d0eb56537eaac146b34d15",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:38:m4a": {
+      "path": "payload/media/audio/stops/qui223/38.m4a",
+      "byteSize": 74195,
+      "sha256": "2b37dde33d0f4adc010f09aa89b2762e29a24708c6894babfdd767cc3471c21b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:40:opus": {
+      "path": "payload/media/audio/stops/qui223/40.opus",
+      "byteSize": 73221,
+      "sha256": "652e2b6d514d7ba0a800c831a9bd18eff98d708154ed7ac4a59e5e6e0f14c431",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:40:m4a": {
+      "path": "payload/media/audio/stops/qui223/40.m4a",
+      "byteSize": 74194,
+      "sha256": "8699ce3be4d4ffc61ef415202e6b1a89fe71c34ef8e77ec8e0b46fb88279fe49",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:41:opus": {
+      "path": "payload/media/audio/stops/qui223/41.opus",
+      "byteSize": 74089,
+      "sha256": "6d6b54b39e0ba60068a76e077ea59a688b5b7c4e8f78ce6706a4334ab48d8b97",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:41:m4a": {
+      "path": "payload/media/audio/stops/qui223/41.m4a",
+      "byteSize": 74089,
+      "sha256": "759087df816b7e025a69b42714cf25eae8dedc4f64fed043be70d7485af4395a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:43:opus": {
+      "path": "payload/media/audio/stops/qui223/43.opus",
+      "byteSize": 75679,
+      "sha256": "1f9c3a26b97ddfa95f8163b115bca219f9afaa01052979a15ffe0f1599025001",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:43:m4a": {
+      "path": "payload/media/audio/stops/qui223/43.m4a",
+      "byteSize": 74037,
+      "sha256": "7c8d6e1536c9d45dbc0263c3dd0530d14fbae8a9ac1522db21af48662d52afe4",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:45:opus": {
+      "path": "payload/media/audio/stops/qui223/45.opus",
+      "byteSize": 81305,
+      "sha256": "c996c6608a569d7edb7b33039990854e720a0352ae900124c09784c4ea603c68",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:45:m4a": {
+      "path": "payload/media/audio/stops/qui223/45.m4a",
+      "byteSize": 74262,
+      "sha256": "120ddb75f233de05984a8b1b77330823c1ee4167b6271f56f2d4a97613a91e15",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:46:opus": {
+      "path": "payload/media/audio/stops/qui223/46.opus",
+      "byteSize": 81682,
+      "sha256": "da0dc3898632464a4909fc3c84c529c4c83ac72b6d789e54db03babda283ffe2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:46:m4a": {
+      "path": "payload/media/audio/stops/qui223/46.m4a",
+      "byteSize": 74123,
+      "sha256": "822fac583c264b2bf2a826089dfba5497ea88b2c22e7a051b97dcd611b95913c",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:47:opus": {
+      "path": "payload/media/audio/stops/qui223/47.opus",
+      "byteSize": 84234,
+      "sha256": "cdc8965c36b00b9383ee9f2f48e85417f1675afabbd6e0d88ed70370b1b43baf",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:47:m4a": {
+      "path": "payload/media/audio/stops/qui223/47.m4a",
+      "byteSize": 74057,
+      "sha256": "eb484565e462f6d61629cf73915ba49159b3f0ada6ca911bb4ec2b248f637e1a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:48:opus": {
+      "path": "payload/media/audio/stops/qui223/48.opus",
+      "byteSize": 80330,
+      "sha256": "630cba838550c43f85cc20f580500fdcd0f6a34aead8d2df542927d87f9d8737",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:48:m4a": {
+      "path": "payload/media/audio/stops/qui223/48.m4a",
+      "byteSize": 74130,
+      "sha256": "ce053a76fdf242a3346a90a560c094b1f199df0d5f9964920ede3af7c7e82468",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:49:opus": {
+      "path": "payload/media/audio/stops/qui223/49.opus",
+      "byteSize": 83508,
+      "sha256": "0c54ba0bfbe4e50a8e4f265b6165a2ed75d9bf709b1d0472c27f2e254edbb92f",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:49:m4a": {
+      "path": "payload/media/audio/stops/qui223/49.m4a",
+      "byteSize": 74047,
+      "sha256": "fad7f7eae07fbfa81d963604eaa53a3c46d83991134b5ef711928a7c01281ee5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:50:opus": {
+      "path": "payload/media/audio/stops/qui223/50.opus",
+      "byteSize": 83122,
+      "sha256": "62d093b30912dcbb934727fddce3e0e6fd1f2213ef12f2c6e750e60a329d8eaf",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:50:m4a": {
+      "path": "payload/media/audio/stops/qui223/50.m4a",
+      "byteSize": 74039,
+      "sha256": "d4c2ee367798ec99c7de378fd8775d5e99c4355dceb42b30fa6628ef73313d42",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:51:opus": {
+      "path": "payload/media/audio/stops/qui223/51.opus",
+      "byteSize": 85255,
+      "sha256": "d9e31217913efeee717c876f4f7b2ee1041929e63a5953fc0b982ea913bddbfc",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:51:m4a": {
+      "path": "payload/media/audio/stops/qui223/51.m4a",
+      "byteSize": 74152,
+      "sha256": "4448c5fd5b5e367ea4ce5b6ca8248a25f6e21cdb11d11e8c77a5b2efa9a81f5e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:52:opus": {
+      "path": "payload/media/audio/stops/qui223/52.opus",
+      "byteSize": 85402,
+      "sha256": "9a0604ad9d713761efea4323ca80e2c3dc905da012cd336c86f2a55e5550bea9",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:52:m4a": {
+      "path": "payload/media/audio/stops/qui223/52.m4a",
+      "byteSize": 74145,
+      "sha256": "e0741889f7851a7f5c92be28199d6a834f905671dfe418c3f34a925152335c2b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:53:opus": {
+      "path": "payload/media/audio/stops/qui223/53.opus",
+      "byteSize": 86687,
+      "sha256": "e77609cfefcef2717644750c65b8fb7140e656cb124f7642dd538646beebe637",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:53:m4a": {
+      "path": "payload/media/audio/stops/qui223/53.m4a",
+      "byteSize": 74022,
+      "sha256": "b3e5174c993a7f6ba6f69b8c1dd7f0b6b649732404fe45b974b1a3ceb0d14da9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:54:opus": {
+      "path": "payload/media/audio/stops/qui223/54.opus",
+      "byteSize": 89216,
+      "sha256": "a7956c53b2e5c40763f326ce1b2c9297fc3f3b4aa1d8d5dbc4170b7d9b99b573",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:54:m4a": {
+      "path": "payload/media/audio/stops/qui223/54.m4a",
+      "byteSize": 74079,
+      "sha256": "a2615fa808646a4c45bb737188f039d59d8c8645ac0ce78574665813c860efdb",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:55:opus": {
+      "path": "payload/media/audio/stops/qui223/55.opus",
+      "byteSize": 90616,
+      "sha256": "40c86eb6565aff34ce50847e62de744306cbf100fb6cb2a83f5e4e5478f5c90d",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:55:m4a": {
+      "path": "payload/media/audio/stops/qui223/55.m4a",
+      "byteSize": 74062,
+      "sha256": "5feabdd4136da688b871e1e6266cf0fa3d03b379151007bdc94d5e4dc57f1cf6",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:56:opus": {
+      "path": "payload/media/audio/stops/qui223/56.opus",
+      "byteSize": 93435,
+      "sha256": "dca4c9c2558d6933768cc94cd508458d24b5be247069743b35b834d858d71233",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:56:m4a": {
+      "path": "payload/media/audio/stops/qui223/56.m4a",
+      "byteSize": 74071,
+      "sha256": "d6eed77ec6ee291ae9adccd0372cc87f41fe38a11d33ee8d266feb8c9f565254",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:57:opus": {
+      "path": "payload/media/audio/stops/qui223/57.opus",
+      "byteSize": 95531,
+      "sha256": "9205a94e59d03f966a32595f03e556b2e3aa464d8be90454511b7b53abe8ab9f",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:57:m4a": {
+      "path": "payload/media/audio/stops/qui223/57.m4a",
+      "byteSize": 74168,
+      "sha256": "eaa15536eb6d322399ad22b9359c37280549284c5f64d9a9db80516374f1ed75",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:58:opus": {
+      "path": "payload/media/audio/stops/qui223/58.opus",
+      "byteSize": 92409,
+      "sha256": "3341fb4a0d248f4938753d624b2b3959affd956983914125aba32d798fb7cbd9",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:58:m4a": {
+      "path": "payload/media/audio/stops/qui223/58.m4a",
+      "byteSize": 74063,
+      "sha256": "71776f476581b1f4cf9786f92339d63e1fece04226f99d3b176724ca3775eed1",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:59:opus": {
+      "path": "payload/media/audio/stops/qui223/59.opus",
+      "byteSize": 104345,
+      "sha256": "0828d524089ba2faba8b6f6b3b72c70d61e4356ec5726c6aed820c6ee8eef4f3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:59:m4a": {
+      "path": "payload/media/audio/stops/qui223/59.m4a",
+      "byteSize": 74139,
+      "sha256": "ed2be7440846404d0a96b6809f3a9f6d08e596163b40046a41ccb939832c1257",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:60:opus": {
+      "path": "payload/media/audio/stops/qui223/60.opus",
+      "byteSize": 104011,
+      "sha256": "f06cf6d9acdff2224bd3c472aca7788404d4dfdbb0f598c85852c4efedadce99",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:60:m4a": {
+      "path": "payload/media/audio/stops/qui223/60.m4a",
+      "byteSize": 74137,
+      "sha256": "4b8abdcb5032321b06641863ccfa8a278be4eaaf201fcac1289c7ab176535de9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:61:opus": {
+      "path": "payload/media/audio/stops/qui223/61.opus",
+      "byteSize": 102777,
+      "sha256": "1855f2d26c0269673c8ad866015376c2bdef4864a033c2790a548b563574e41a",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:61:m4a": {
+      "path": "payload/media/audio/stops/qui223/61.m4a",
+      "byteSize": 74106,
+      "sha256": "22d014e3a286ba51f250677fa3cdcef747e5bde7e112aad915274019164b06ed",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:62:opus": {
+      "path": "payload/media/audio/stops/qui223/62.opus",
+      "byteSize": 111542,
+      "sha256": "996cd3e03eb5ee9b5c7323d72b2b2fd586a6ac9fe71da8ff053a4c9e6b797d01",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:62:m4a": {
+      "path": "payload/media/audio/stops/qui223/62.m4a",
+      "byteSize": 74131,
+      "sha256": "5c9b41f445be1f6bd7ac34c77b96bb253f29a4b2c6b88876d0f743ca9ee80bd3",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:63:opus": {
+      "path": "payload/media/audio/stops/qui223/63.opus",
+      "byteSize": 114512,
+      "sha256": "ac8b88872ebd5cd69a91fb1999326efad53e2eb0be63014e74b6cb6fa34dd956",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:63:m4a": {
+      "path": "payload/media/audio/stops/qui223/63.m4a",
+      "byteSize": 74116,
+      "sha256": "692f4b56c0b34598b02fb72a30c5861d78f52c7f69534c61b99c4c21eed62798",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:64:opus": {
+      "path": "payload/media/audio/stops/qui223/64.opus",
+      "byteSize": 113195,
+      "sha256": "df72b111d26e7a93b3b92bce87ff9f0022d64970a83b95014c757a6a5795f82b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:64:m4a": {
+      "path": "payload/media/audio/stops/qui223/64.m4a",
+      "byteSize": 74169,
+      "sha256": "b35bc93abdfff7d7f9c4f9398d0458c0e5003ae59865ba4d87993cd633599d3b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:65:opus": {
+      "path": "payload/media/audio/stops/qui223/65.opus",
+      "byteSize": 108528,
+      "sha256": "e6ad74d93971b0242373b29f28035fa29372b8416fc805a63e80c7bf8fa3aef3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:65:m4a": {
+      "path": "payload/media/audio/stops/qui223/65.m4a",
+      "byteSize": 74157,
+      "sha256": "2047b834381d92bdecb0b96710a0b10d3392b228666d199b1fc5d8412b9fde21",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:66:opus": {
+      "path": "payload/media/audio/stops/qui223/66.opus",
+      "byteSize": 109996,
+      "sha256": "037b8dec3cd2d8c5b89483f15d9c94f78c5cbd6f3fa9bba182ef90d069d915b8",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:66:m4a": {
+      "path": "payload/media/audio/stops/qui223/66.m4a",
+      "byteSize": 74151,
+      "sha256": "564de67df2979cc19621b1fd9e8546cea57b8fd72e46f4e09549ede14a50f202",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:67:opus": {
+      "path": "payload/media/audio/stops/qui223/67.opus",
+      "byteSize": 107673,
+      "sha256": "5a8fca565534ed63ea44273c7c298c5e406180943e23609fc3ea9fc9b903a3e2",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:67:m4a": {
+      "path": "payload/media/audio/stops/qui223/67.m4a",
+      "byteSize": 74097,
+      "sha256": "ac19716550a73675f23bf868ff2ed4320d577c82f1a573078db9f260b41e9f6b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:68:opus": {
+      "path": "payload/media/audio/stops/qui223/68.opus",
+      "byteSize": 115051,
+      "sha256": "1adc92fac631295db3d7892410f9169c4ba8167e2e4a803a4bae5c5cb4099caf",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:68:m4a": {
+      "path": "payload/media/audio/stops/qui223/68.m4a",
+      "byteSize": 74147,
+      "sha256": "eb5cf38476d7a389b3924acae6e27dd8f5813f424a79b36ef7271ca0511f8a9d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:69:opus": {
+      "path": "payload/media/audio/stops/qui223/69.opus",
+      "byteSize": 114800,
+      "sha256": "7038ade80355a5b4dbbfdc899fa091e4cba7f9d9f5f5fde9c7eba634b060131d",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:69:m4a": {
+      "path": "payload/media/audio/stops/qui223/69.m4a",
+      "byteSize": 74140,
+      "sha256": "c920086c0bbcdd17ee4c9089f02e8a993295531d3c2e536ce7e16797d92434d5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:70:opus": {
+      "path": "payload/media/audio/stops/qui223/70.opus",
+      "byteSize": 109262,
+      "sha256": "ae6e48d0b5394bcfde3d0e1f0e732e5aaf546c4a52c1f9bca888788940bbb05e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:70:m4a": {
+      "path": "payload/media/audio/stops/qui223/70.m4a",
+      "byteSize": 74172,
+      "sha256": "075d2de1fe72852e8987509a19070deb6f2b609f911af29eef75d6ebc8e9ed8c",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:71:opus": {
+      "path": "payload/media/audio/stops/qui223/71.opus",
+      "byteSize": 111422,
+      "sha256": "3136899dcaee35a20164b0ac4e4becfe0a6ed5ca3e2474af02d23fa3f5565704",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:71:m4a": {
+      "path": "payload/media/audio/stops/qui223/71.m4a",
+      "byteSize": 74146,
+      "sha256": "3d4094302f7790cbb19d855d8ecbec4b4733ff81a711f7d9911f0e7813534a22",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:72:opus": {
+      "path": "payload/media/audio/stops/qui223/72.opus",
+      "byteSize": 112719,
+      "sha256": "345d1655c946ceda6ce2c3eadc41107df1fe44c298c576828ff38bb4312d7c00",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:72:m4a": {
+      "path": "payload/media/audio/stops/qui223/72.m4a",
+      "byteSize": 74169,
+      "sha256": "3a89abdf4b6b87f5d631b460b80527f63d139ecb94ca17285a9ebd032e15dbf9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:73:opus": {
+      "path": "payload/media/audio/stops/qui223/73.opus",
+      "byteSize": 103582,
+      "sha256": "deb6499451a36c7c80956d4fbc79b3e901b5de1fedb253c88baa32192ecce045",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:73:m4a": {
+      "path": "payload/media/audio/stops/qui223/73.m4a",
+      "byteSize": 74109,
+      "sha256": "83a580e80b0b5eeb0c26fbbe00b1bcd35aaeabec8c8d2ea8011e5303170ce6b9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:74:opus": {
+      "path": "payload/media/audio/stops/qui223/74.opus",
+      "byteSize": 93630,
+      "sha256": "915fd61860a0a43b720cd1e4c33c070f492b4653dbfe43254a1185dbe83e00ba",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:74:m4a": {
+      "path": "payload/media/audio/stops/qui223/74.m4a",
+      "byteSize": 74127,
+      "sha256": "298b60d8aaf7200b304ac79980b10dcdb6c09390462e1b464226a2fe01587998",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:75:opus": {
+      "path": "payload/media/audio/stops/qui223/75.opus",
+      "byteSize": 118182,
+      "sha256": "4117e34c52f4bc4a06bdb0d359bd453f34be813f48e83b4f65af3cc44d543e06",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:75:m4a": {
+      "path": "payload/media/audio/stops/qui223/75.m4a",
+      "byteSize": 74162,
+      "sha256": "621d2f2a371820cc472a0c1a9a5c152d1128ddde3656af32eda49545eccb9cf1",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:76:opus": {
+      "path": "payload/media/audio/stops/qui223/76.opus",
+      "byteSize": 97445,
+      "sha256": "03cd6e00a38b2e0e700a08770b6a89c651c2619264fb06c54c18df02f448f5cc",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:76:m4a": {
+      "path": "payload/media/audio/stops/qui223/76.m4a",
+      "byteSize": 74121,
+      "sha256": "dee8a51420020ac0c339796ed9da5dd0ef608b99c3a817a34c834277ab1c6c7c",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:77:opus": {
+      "path": "payload/media/audio/stops/qui223/77.opus",
+      "byteSize": 106271,
+      "sha256": "5dbe2ff62587c8348af6a3b15e2ec26dbe5d8e245bd38c1d6440bf13970e81df",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:77:m4a": {
+      "path": "payload/media/audio/stops/qui223/77.m4a",
+      "byteSize": 74127,
+      "sha256": "fc83e2cc9c215d2078b07b25db73626bbabf33826ebf478a3fdb49b8f9f1ef25",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:78:opus": {
+      "path": "payload/media/audio/stops/qui223/78.opus",
+      "byteSize": 96215,
+      "sha256": "210c6de15caed553037f2f287162c3609f81ecdf8cabd1e0d1ce9676d135bf94",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:78:m4a": {
+      "path": "payload/media/audio/stops/qui223/78.m4a",
+      "byteSize": 74133,
+      "sha256": "068a41f8c1350dad143b9f5b7107aa4be42e999e3caf8ae1fec2c345375320e5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:79:opus": {
+      "path": "payload/media/audio/stops/qui223/79.opus",
+      "byteSize": 108693,
+      "sha256": "94317b84882b4136d00302db2b4f32c34a68b606dda3c58fab3f266d8b724b68",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:79:m4a": {
+      "path": "payload/media/audio/stops/qui223/79.m4a",
+      "byteSize": 74302,
+      "sha256": "7aa07f6c565c69a869aa6c4abbedc88e485f05da624a3a71dc520c88d0f6beb0",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:80:opus": {
+      "path": "payload/media/audio/stops/qui223/80.opus",
+      "byteSize": 85831,
+      "sha256": "c47cb3cb0f4c9f2093a272de9ba13657112d30b2d00281bcad9c5d848b91d3c5",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:80:m4a": {
+      "path": "payload/media/audio/stops/qui223/80.m4a",
+      "byteSize": 74314,
+      "sha256": "5e0f2581330a0b0afd42e1df4c862d66addf7f75953da7fa29e7c1eaf5f51387",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:81:opus": {
+      "path": "payload/media/audio/stops/qui223/81.opus",
+      "byteSize": 85416,
+      "sha256": "6654248b98fb10d2ecbe91c0f427ab0adb635c9beaa629c3f49cd6f3b63b688e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:81:m4a": {
+      "path": "payload/media/audio/stops/qui223/81.m4a",
+      "byteSize": 74294,
+      "sha256": "74c5aef841a3ce451dd4eb0e12a036dc631a1c83d2c43c15e00d352db6fddf79",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:82:opus": {
+      "path": "payload/media/audio/stops/qui223/82.opus",
+      "byteSize": 104575,
+      "sha256": "b4c3f61862ce0e00d9f315be2eae949a3b9433b28d8fbf03e901acee4d6643ae",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:82:m4a": {
+      "path": "payload/media/audio/stops/qui223/82.m4a",
+      "byteSize": 74396,
+      "sha256": "d4870fee28bed6082a87b66ada3f23d7e5a279e56a19dc9ad455639d08092241",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:83:opus": {
+      "path": "payload/media/audio/stops/qui223/83.opus",
+      "byteSize": 109421,
+      "sha256": "922c99fd312e534df5e2052d66ff3afcee9bf6d0cc1eefeb54789f8a9ad03979",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:83:m4a": {
+      "path": "payload/media/audio/stops/qui223/83.m4a",
+      "byteSize": 74366,
+      "sha256": "73065bd160fcfa67868cded19856db3e8a6ec39e59c47f5aee28054ae20482a7",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:84:opus": {
+      "path": "payload/media/audio/stops/qui223/84.opus",
+      "byteSize": 115278,
+      "sha256": "85fa7e55daf2cf267ac4e4ccf971095b0b6e73ece7debe25b4298f27c1e280dc",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:84:m4a": {
+      "path": "payload/media/audio/stops/qui223/84.m4a",
+      "byteSize": 74127,
+      "sha256": "5f0a5e72bbd370547b9d7da1b9e5f90548696f6fe7fbc9e21742ad632f5fcd71",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:36:opus": {
+      "path": "payload/media/audio/stops/reg8/36.opus",
+      "byteSize": 79680,
+      "sha256": "6f489d760afa6b9ba8ec62c45ca0518b81c46a75fd2571072cba5113db7a5ace",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:36:m4a": {
+      "path": "payload/media/audio/stops/reg8/36.m4a",
+      "byteSize": 74080,
+      "sha256": "6a82d70d510e2d2b566f64faa013dc8428453c0c90428d246346b9da8a82f329",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:38:opus": {
+      "path": "payload/media/audio/stops/reg8/38.opus",
+      "byteSize": 99104,
+      "sha256": "8e549f01b37033a459b5396a504f3fdea08a7d001104a9ffc8d81e01882bfc25",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:38:m4a": {
+      "path": "payload/media/audio/stops/reg8/38.m4a",
+      "byteSize": 74033,
+      "sha256": "59d6dd8959678207f884395638fa98daf5f4c2a6883d64975b2dc42e3041fb7d",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:40:opus": {
+      "path": "payload/media/audio/stops/reg8/40.opus",
+      "byteSize": 98093,
+      "sha256": "7988c1b8dcff997382c9c85cd70c3e2e225f543d377eae8bc2435baa3afbdd56",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:40:m4a": {
+      "path": "payload/media/audio/stops/reg8/40.m4a",
+      "byteSize": 74060,
+      "sha256": "e83b12aba170834c71beedf2884f2d3eedd078818ae91adab1b98942acf8b928",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:41:opus": {
+      "path": "payload/media/audio/stops/reg8/41.opus",
+      "byteSize": 86811,
+      "sha256": "03cbd7657916a03b6fe9dbee135fb37ba10c76ec3ce727edc54a53f3befb4c3d",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:41:m4a": {
+      "path": "payload/media/audio/stops/reg8/41.m4a",
+      "byteSize": 74061,
+      "sha256": "c05b650f1fb713109d5f8231292e7e39b1851833fa528342f31d0ade8c7c81a7",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:43:opus": {
+      "path": "payload/media/audio/stops/reg8/43.opus",
+      "byteSize": 88062,
+      "sha256": "540b7d0e1e8609dd8914b99ad1bb7eeeaecb194554c0e01f6a3682a23aba0716",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:43:m4a": {
+      "path": "payload/media/audio/stops/reg8/43.m4a",
+      "byteSize": 74128,
+      "sha256": "e13d71dc89298c0c798f77c5e684102090effb562affbcd950d2bab9bb88643a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:45:opus": {
+      "path": "payload/media/audio/stops/reg8/45.opus",
+      "byteSize": 96905,
+      "sha256": "ab1ab40b31755e61c13b74b705977af1696f3b552ced3afdd63262c770d413fc",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:45:m4a": {
+      "path": "payload/media/audio/stops/reg8/45.m4a",
+      "byteSize": 74099,
+      "sha256": "be5c634d2ea4a2514559fc3b1f029376ba9a44e4600aeea80f4f76960c7fb2f2",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:46:opus": {
+      "path": "payload/media/audio/stops/reg8/46.opus",
+      "byteSize": 83354,
+      "sha256": "c43a2f00dcd50d895485fbd53561daef31923e32377e4a4c21964bc343cf6a1a",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:46:m4a": {
+      "path": "payload/media/audio/stops/reg8/46.m4a",
+      "byteSize": 74083,
+      "sha256": "70daa13c259bd49caadfe49a6ef567554e78b09c0aa744a2d8f6ebdd0152ac76",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:47:opus": {
+      "path": "payload/media/audio/stops/reg8/47.opus",
+      "byteSize": 92116,
+      "sha256": "ea42c8dd396fb233caac139c70ce098a5054990fcb6572def9e04ec96c06373d",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:47:m4a": {
+      "path": "payload/media/audio/stops/reg8/47.m4a",
+      "byteSize": 74121,
+      "sha256": "93542c1419ec36aafd10f770e1f885722ccd1c0b0db96e153eaf5142311c1a9e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:48:opus": {
+      "path": "payload/media/audio/stops/reg8/48.opus",
+      "byteSize": 81555,
+      "sha256": "34d63f755e82fc476280d3f7b858e935651446351448d9106f8a905c40c13d1b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:48:m4a": {
+      "path": "payload/media/audio/stops/reg8/48.m4a",
+      "byteSize": 74156,
+      "sha256": "f3435a0b0587fd365486b417d30b5fe707dd1db12eef8bb3e953599be0fb9703",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:49:opus": {
+      "path": "payload/media/audio/stops/reg8/49.opus",
+      "byteSize": 79964,
+      "sha256": "50538e2a6b34e32d209e6fc640d1de8762fe74442cc3900ac5052093b051b0be",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:49:m4a": {
+      "path": "payload/media/audio/stops/reg8/49.m4a",
+      "byteSize": 74255,
+      "sha256": "ecb76ff05ecda70f349d7b016dbe3fcd40a7a239b54e3bee4aa3130066711e05",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:50:opus": {
+      "path": "payload/media/audio/stops/reg8/50.opus",
+      "byteSize": 80779,
+      "sha256": "4859cb6378fdb9578dc5dd842422b6bcfd9e60a65cf05f7505c1e4a80e5c4f0e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:50:m4a": {
+      "path": "payload/media/audio/stops/reg8/50.m4a",
+      "byteSize": 74240,
+      "sha256": "467c4ce2ae00001a136afa841406f86e38d3a672a253c4711545e8c93add402e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:51:opus": {
+      "path": "payload/media/audio/stops/reg8/51.opus",
+      "byteSize": 80765,
+      "sha256": "55dc2f02df444ac4867b9b01facadee4664d53de6ced656cc3da520c0a445875",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:51:m4a": {
+      "path": "payload/media/audio/stops/reg8/51.m4a",
+      "byteSize": 74262,
+      "sha256": "99c49d74bd2edc06c116122a5d1ba3b02f23d7261e91d082c05f43b1b9218540",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:52:opus": {
+      "path": "payload/media/audio/stops/reg8/52.opus",
+      "byteSize": 84802,
+      "sha256": "b9c599ddaeadadc9630ca5d3487370982b938e2a3adcbdc91427caead841f847",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:52:m4a": {
+      "path": "payload/media/audio/stops/reg8/52.m4a",
+      "byteSize": 74173,
+      "sha256": "e61c18857c70496d9be00dca59d15423ac9d35052b044a0caab32cf78f1ddcb3",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:53:opus": {
+      "path": "payload/media/audio/stops/reg8/53.opus",
+      "byteSize": 83649,
+      "sha256": "120035c733709466633023687fa389dca70232f6eec89277b03a7f1e971f9c99",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:53:m4a": {
+      "path": "payload/media/audio/stops/reg8/53.m4a",
+      "byteSize": 74260,
+      "sha256": "37602e6a30f99cac1e3cdaf551a7398c8ae889308a489928f24fd7b088877363",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:54:opus": {
+      "path": "payload/media/audio/stops/reg8/54.opus",
+      "byteSize": 80983,
+      "sha256": "0107112b35720a644bfc5c6ee35205a8363470988fb178e9ae6dd774ce21878d",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:54:m4a": {
+      "path": "payload/media/audio/stops/reg8/54.m4a",
+      "byteSize": 74293,
+      "sha256": "97ffa6eca2af1069a32de56149fb4c5df22fdc5f798985ad9e3804bcf1a784ae",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:55:opus": {
+      "path": "payload/media/audio/stops/reg8/55.opus",
+      "byteSize": 83980,
+      "sha256": "78a7350fc2b3ee72343e31498728aeee5dade9bf73972e48bb1444b975d0fdcd",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:55:m4a": {
+      "path": "payload/media/audio/stops/reg8/55.m4a",
+      "byteSize": 74246,
+      "sha256": "b4f21c6383a1d2e23cac442294e3f04f96ef56ca0493b25cf1e50b4cf7ffe549",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:56:opus": {
+      "path": "payload/media/audio/stops/reg8/56.opus",
+      "byteSize": 82349,
+      "sha256": "e73765ce442548168fa2187b5ce92493c5014616a8da3614a4593c8b0447ca8c",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:56:m4a": {
+      "path": "payload/media/audio/stops/reg8/56.m4a",
+      "byteSize": 74194,
+      "sha256": "53a0d4c484e95a26eb3b49564d9bcb1b97fb8913960a3cbe3f459d7f75e02734",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:57:opus": {
+      "path": "payload/media/audio/stops/reg8/57.opus",
+      "byteSize": 87219,
+      "sha256": "20c6071682575efc4641affa1e23a0c102717c628bc4ce07badca579903ad897",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:57:m4a": {
+      "path": "payload/media/audio/stops/reg8/57.m4a",
+      "byteSize": 74120,
+      "sha256": "c88d509f352c98e8211b07f4288024bcbc2b2a45dd79f515f9d52086fe48b59b",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:58:opus": {
+      "path": "payload/media/audio/stops/reg8/58.opus",
+      "byteSize": 87349,
+      "sha256": "6a7b82afbb21fbe70874349cd6899d18222ab04440172f4e824683650c09e038",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:58:m4a": {
+      "path": "payload/media/audio/stops/reg8/58.m4a",
+      "byteSize": 74105,
+      "sha256": "e29289e5303874d8f228088bfae110d9fe5b5c756f576d844d1da4dd028da931",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:59:opus": {
+      "path": "payload/media/audio/stops/reg8/59.opus",
+      "byteSize": 83049,
+      "sha256": "031ad6827457d8ff8ab99316ea1d0b2c42bf269e5064ed92924ea714511e8f38",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:59:m4a": {
+      "path": "payload/media/audio/stops/reg8/59.m4a",
+      "byteSize": 74146,
+      "sha256": "27a84b7c5d2626dcbc0fcbef8c6f89493970764f6e45bb858acfc631d2cba1ce",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:60:opus": {
+      "path": "payload/media/audio/stops/reg8/60.opus",
+      "byteSize": 84822,
+      "sha256": "1d2c2d61566e4a818a70fdf71d753b4f75e0545ea030fb8dbdbcbc1186f2e87e",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:60:m4a": {
+      "path": "payload/media/audio/stops/reg8/60.m4a",
+      "byteSize": 74132,
+      "sha256": "b9a59d5a1f13b3efbb4ae7320282dd82e2d51b0e0c394cbf5524abda0f040b00",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:61:opus": {
+      "path": "payload/media/audio/stops/reg8/61.opus",
+      "byteSize": 88051,
+      "sha256": "52448888875e52cddcce2eb030cf90745e9df5fe6bc6e4abe8db53f4aa1fbd54",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:61:m4a": {
+      "path": "payload/media/audio/stops/reg8/61.m4a",
+      "byteSize": 74073,
+      "sha256": "322beaff307dca93b1710f0ede8bfadf5ca2ff52adcd46993b78c6546e26358a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:62:opus": {
+      "path": "payload/media/audio/stops/reg8/62.opus",
+      "byteSize": 89890,
+      "sha256": "5e4683d4320a670dfdac45416fa28045ff17b9b7886527aa0c0a84550d8dae14",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:62:m4a": {
+      "path": "payload/media/audio/stops/reg8/62.m4a",
+      "byteSize": 74124,
+      "sha256": "85eb1a8f1114ce70c5cbe35ca665d70d9a60164a7982436e6bef6a2d2fafd149",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:63:opus": {
+      "path": "payload/media/audio/stops/reg8/63.opus",
+      "byteSize": 89609,
+      "sha256": "2b8c945bfc90bf5330d236327b2730e66a32b905da0fa1524ef40a9009d267f0",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:63:m4a": {
+      "path": "payload/media/audio/stops/reg8/63.m4a",
+      "byteSize": 74096,
+      "sha256": "cd6e5d718862c55656d72a4cab7e24e17510d8c092ffc96515d19250cc73c1e2",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:64:opus": {
+      "path": "payload/media/audio/stops/reg8/64.opus",
+      "byteSize": 83135,
+      "sha256": "6517beed0c5b261ef09c0421ee29e26e7f866cb3828296b55dd930711776b610",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:64:m4a": {
+      "path": "payload/media/audio/stops/reg8/64.m4a",
+      "byteSize": 74124,
+      "sha256": "b7e50c94e94286371283dda51cc4c24e33651103dce19fa1705a21e4fbfe1425",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:65:opus": {
+      "path": "payload/media/audio/stops/reg8/65.opus",
+      "byteSize": 97631,
+      "sha256": "54b24974eace0c9af13f297d5da3a2b45652ee7298202cddf33a8a53fbdfc047",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:65:m4a": {
+      "path": "payload/media/audio/stops/reg8/65.m4a",
+      "byteSize": 74079,
+      "sha256": "942850196d8d52c102022a88c24b0790329512a8e96eb04cafaf75aaf84db7a0",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:66:opus": {
+      "path": "payload/media/audio/stops/reg8/66.opus",
+      "byteSize": 93753,
+      "sha256": "7fa2f6c67e17d3f91c0bf7ec9965b619bcbdff61e134f58888d2432fc536cc1b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:66:m4a": {
+      "path": "payload/media/audio/stops/reg8/66.m4a",
+      "byteSize": 74111,
+      "sha256": "4d78e182d829de6a6089eb45994e4418dc0907e2f057c6087198bd9d4c004881",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:67:opus": {
+      "path": "payload/media/audio/stops/reg8/67.opus",
+      "byteSize": 97511,
+      "sha256": "db75620522178fdddb06400b71740922909c7e91367b55c6ea14a30f21210d52",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:67:m4a": {
+      "path": "payload/media/audio/stops/reg8/67.m4a",
+      "byteSize": 74073,
+      "sha256": "85c5bf83471aba6bb20fa2f805d7787e1eeba6f6f3d9cfc989e587a93dc11864",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:68:opus": {
+      "path": "payload/media/audio/stops/reg8/68.opus",
+      "byteSize": 99916,
+      "sha256": "023fedc620af494e257c850225c7804e9739b47ed3194ebaa9d3a67a7b54be26",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:68:m4a": {
+      "path": "payload/media/audio/stops/reg8/68.m4a",
+      "byteSize": 74067,
+      "sha256": "820848f49128ef724216a449ad6d5dbe34875ce39d4ab3d23a813f2166c8322e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:69:opus": {
+      "path": "payload/media/audio/stops/reg8/69.opus",
+      "byteSize": 98610,
+      "sha256": "1fed86cf1f2dc2d3abf730b52a8950ffa5556125f0d63303c3563e34137b0f05",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:69:m4a": {
+      "path": "payload/media/audio/stops/reg8/69.m4a",
+      "byteSize": 74082,
+      "sha256": "f26ebb122dff79f9accb2015b240178c0dcbe9c99f12dffdfdadf62fed5efa27",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:70:opus": {
+      "path": "payload/media/audio/stops/reg8/70.opus",
+      "byteSize": 98994,
+      "sha256": "3c7fc9d5185c5faa8af15c5063c22e64acf9b86b99224380f116ae33145a7fa3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:70:m4a": {
+      "path": "payload/media/audio/stops/reg8/70.m4a",
+      "byteSize": 74129,
+      "sha256": "d11f19750e8b1f9021ce31ca9666a4826ee6169f33b55ea5d7db6875ba521c34",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:71:opus": {
+      "path": "payload/media/audio/stops/reg8/71.opus",
+      "byteSize": 99308,
+      "sha256": "1f0a749887b3bfc5d9067e0b8cdef6beeb1cca35ce7218ee041a01551f674799",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:71:m4a": {
+      "path": "payload/media/audio/stops/reg8/71.m4a",
+      "byteSize": 74266,
+      "sha256": "185ca83fb6c2d33518d74e4e1f2b4f86001e5fbd107f25f03475a1f3abc28e9e",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:72:opus": {
+      "path": "payload/media/audio/stops/reg8/72.opus",
+      "byteSize": 110550,
+      "sha256": "6478b34fb8521289eed4f8b3836664f5874c49de7b05ee5669547ff77120b102",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:72:m4a": {
+      "path": "payload/media/audio/stops/reg8/72.m4a",
+      "byteSize": 74098,
+      "sha256": "83c7182a6166f0722d20ff77de2656fd90d57b4e2b23c833558c0bda2bb707ee",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:73:opus": {
+      "path": "payload/media/audio/stops/reg8/73.opus",
+      "byteSize": 107780,
+      "sha256": "d736911b2b73127bd9f5db404bcec4ee1eb96278fdec9b7bab5c0b7e3618ad0f",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:73:m4a": {
+      "path": "payload/media/audio/stops/reg8/73.m4a",
+      "byteSize": 74060,
+      "sha256": "284f351b093e418719171f61377a3e7a02c53a3607652834feb53fb7742e8929",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:74:opus": {
+      "path": "payload/media/audio/stops/reg8/74.opus",
+      "byteSize": 110586,
+      "sha256": "17c5a7eadabeacef728119f0bed4b82cc35ef1ef6d52ce82981276671c629d1a",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:74:m4a": {
+      "path": "payload/media/audio/stops/reg8/74.m4a",
+      "byteSize": 74064,
+      "sha256": "f8f28b0ed86f4f8d7ff13fd1aec376b2a926f4a18e5f447215f5768cb99c2844",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:75:opus": {
+      "path": "payload/media/audio/stops/reg8/75.opus",
+      "byteSize": 102302,
+      "sha256": "6fc90955a2661e85886036febe713043fc99da1bd9a0ecc4ae087728cdcecea9",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:75:m4a": {
+      "path": "payload/media/audio/stops/reg8/75.m4a",
+      "byteSize": 74254,
+      "sha256": "d6075c2cba369c7a28409a411a78a7a30d0bc429819d27abafdae920d22a5109",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:76:opus": {
+      "path": "payload/media/audio/stops/reg8/76.opus",
+      "byteSize": 104043,
+      "sha256": "9853352ff9159fb7a12b354ab54244a988cac2c05b52556ba931591fcc496273",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:76:m4a": {
+      "path": "payload/media/audio/stops/reg8/76.m4a",
+      "byteSize": 74056,
+      "sha256": "003eed783dd3e7ead51b049b09b56f1ee7d1e13abfae31807813430b2ecf1566",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:77:opus": {
+      "path": "payload/media/audio/stops/reg8/77.opus",
+      "byteSize": 108179,
+      "sha256": "f705fb3c4cdd98c71021e40771b3f9c005617f79e70b05d890ca6d5f525892cc",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:77:m4a": {
+      "path": "payload/media/audio/stops/reg8/77.m4a",
+      "byteSize": 74049,
+      "sha256": "40e3da8661cac8c09e9f95777f08d44387af43282028fbad6614bd598c7c97fb",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:78:opus": {
+      "path": "payload/media/audio/stops/reg8/78.opus",
+      "byteSize": 112282,
+      "sha256": "cca640ab63789cf5f223d74f142313cb8ec2ebb7a85906a9914f7817dc512b57",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:78:m4a": {
+      "path": "payload/media/audio/stops/reg8/78.m4a",
+      "byteSize": 74044,
+      "sha256": "2e415d183b80a85b9abcc606a5b7246e4bc7fe44765aa271283ccbd322fc8173",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:79:opus": {
+      "path": "payload/media/audio/stops/reg8/79.opus",
+      "byteSize": 109897,
+      "sha256": "74842b9f455836dbf81c4cf3f0bc659116c3f905a49d1990b02b51f0cb346fff",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:79:m4a": {
+      "path": "payload/media/audio/stops/reg8/79.m4a",
+      "byteSize": 74047,
+      "sha256": "4bbfe935ccddb088908639e17fb6657a79fe707d90d179e74f9eca0aaaab9226",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:80:opus": {
+      "path": "payload/media/audio/stops/reg8/80.opus",
+      "byteSize": 101464,
+      "sha256": "9f8344ab04a233dd3c0bbcf006ebdff4367c910723a0fcb3f427816b35d918a3",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:80:m4a": {
+      "path": "payload/media/audio/stops/reg8/80.m4a",
+      "byteSize": 74268,
+      "sha256": "7da1f84be1ac87cd4ff6536e3ccc4ede454aaa18e29a1eb1850e19a3143af36a",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:81:opus": {
+      "path": "payload/media/audio/stops/reg8/81.opus",
+      "byteSize": 96608,
+      "sha256": "fb1c9c0ea2c9c8ea113d6dc6bee1bfcb24c0500a47592ba0d6d998b3d168836b",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:81:m4a": {
+      "path": "payload/media/audio/stops/reg8/81.m4a",
+      "byteSize": 74269,
+      "sha256": "9b3d9acb0665ee7ec8087b373fd68bde0a657b9f812797807cfe63f159951bde",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:82:opus": {
+      "path": "payload/media/audio/stops/reg8/82.opus",
+      "byteSize": 119278,
+      "sha256": "06d3be36ba1105c22ac440476c3d539cd2d5f6c6343c5e8ef302a9ccb80a7795",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:82:m4a": {
+      "path": "payload/media/audio/stops/reg8/82.m4a",
+      "byteSize": 72958,
+      "sha256": "fd3c9e569d3745e8225c239e8f8904d485d1a1358bade1279ec6e0e95987a5a9",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:83:opus": {
+      "path": "payload/media/audio/stops/reg8/83.opus",
+      "byteSize": 118251,
+      "sha256": "2de00fe80315c6e756433902a779feea371b375954aad2d2c5d3d46d10ad0074",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:83:m4a": {
+      "path": "payload/media/audio/stops/reg8/83.m4a",
+      "byteSize": 74289,
+      "sha256": "97efbddf8d8d3c8150be0c1254df5f9faae6bab517e5c75637f633f2954b7938",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:84:opus": {
+      "path": "payload/media/audio/stops/reg8/84.opus",
+      "byteSize": 111911,
+      "sha256": "70aca5eb7c5d0bb5216db84abfc20949d03a21016181fd36e1bbeb47b7431eb7",
+      "mediaType": "audio/ogg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:84:m4a": {
+      "path": "payload/media/audio/stops/reg8/84.m4a",
+      "byteSize": 74116,
+      "sha256": "ea3ccecd93bec868ff0069e526bdeea4370d44421c213f557c2a9e3f376189f5",
+      "mediaType": "audio/mp4"
+    },
+    "urn:vaoxr:realization:config:building:json": {
+      "path": "payload/config/building.json",
+      "byteSize": 1777,
+      "sha256": "377c5392b671337fb50ac31ba81889837d25223453a506f497fad645c2a1298b",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:config:instrument:json": {
+      "path": "payload/config/instrument.json",
+      "byteSize": 4224,
+      "sha256": "7f6754c988c97b0046796040c20ada31b876c463e66bd178304c4e2dcd7833b9",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:docs:conformance:json": {
+      "path": "payload/docs/conformance.json",
+      "byteSize": 2361,
+      "sha256": "e8d8e53411c8433f8e5e78e02929ee27cd51d47f7daee2b7a178ad66e1241cbf",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:docs:physical:calibration:json": {
+      "path": "payload/docs/physical-calibration.json",
+      "byteSize": 1426,
+      "sha256": "655989e43e23e994c142f30eca0db41c40ee47138d6e426e293befea9ae2005d",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:docs:vaoxr:application:0:5:0:schema:json": {
+      "path": "payload/docs/vaoxr-application-0.5.0.schema.json",
+      "byteSize": 3019,
+      "sha256": "144cdbeb611c93168a81dc2766b92463aa3e1ae26c21b0e9457bf39afece35f6",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:ar:ar:marker:jpg": {
+      "path": "payload/media/ar/ar-marker.jpg",
+      "byteSize": 118615,
+      "sha256": "0f9db5bf4d1547786df2925bd39fd32a8ca3c9e6f2ee79bad1a599fd413eceac",
+      "mediaType": "image/jpeg"
+    },
+    "urn:vaoxr:realization:media:ar:ar:marker:mind": {
+      "path": "payload/media/ar/ar-marker.mind",
+      "byteSize": 680605,
+      "sha256": "e956513b5d0b755340d5db875ce4127993eeac6556733780f695239cf614a77f",
+      "mediaType": "application/octet-stream"
+    },
+    "urn:vaoxr:realization:media:audio:performance:mp3": {
+      "path": "payload/media/audio/performance.mp3",
+      "byteSize": 1382399,
+      "sha256": "acc4b3dc8543588d66015c36b6e7f983add2a3e3991008e5772eacaa56a0c557",
+      "mediaType": "audio/mpeg"
+    },
+    "urn:vaoxr:realization:media:audio:room:main:hall:mp3": {
+      "path": "payload/media/audio/room/main-hall.mp3",
+      "byteSize": 230921,
+      "sha256": "f2bc9eea36ba8eb5c997f49a8493a0cc9f6feded4ce589be098644323d6f7cf4",
+      "mediaType": "audio/mpeg"
+    },
+    "urn:vaoxr:realization:media:audio:room:player:position:mp3": {
+      "path": "payload/media/audio/room/player-position.mp3",
+      "byteSize": 230921,
+      "sha256": "058f740d36ec4ba976917573bc84b0908b5bffed2faf4d2007aa47e97eccfee8",
+      "mediaType": "audio/mpeg"
+    },
+    "urn:vaoxr:realization:media:audio:room:right:wall:mp3": {
+      "path": "payload/media/audio/room/right-wall.mp3",
+      "byteSize": 230921,
+      "sha256": "674d42f082250348942ce4b773b6302477e654158f6ee5be0ebb190432e3cde7",
+      "mediaType": "audio/mpeg"
+    },
+    "urn:vaoxr:realization:media:audio:room:under:gallery:mp3": {
+      "path": "payload/media/audio/room/under-gallery.mp3",
+      "byteSize": 230921,
+      "sha256": "2eaaf9358a6295e2a1bfb2426dd96ac3d4594612417dcb2e15a80935822c5350",
+      "mediaType": "audio/mpeg"
+    },
+    "urn:vaoxr:realization:media:audio:stops:ged:manifest:json": {
+      "path": "payload/media/audio/stops/ged/manifest.json",
+      "byteSize": 40800,
+      "sha256": "0d1e474534a3a71d9929ecd09c2767c661f8f997c0295b3369af7758bc658220",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ2:manifest:json": {
+      "path": "payload/media/audio/stops/princ2/manifest.json",
+      "byteSize": 41370,
+      "sha256": "341c48dec643d6d6c2bb0c61c2a37e46584a8048762f9f96572b68603168c0a0",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:audio:stops:princ4:manifest:json": {
+      "path": "payload/media/audio/stops/princ4/manifest.json",
+      "byteSize": 41361,
+      "sha256": "85ce5f4168bb8ef22b84970ad08e5d3db2cfc6f6b25cc06f48886794737d68be",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:audio:stops:qui223:manifest:json": {
+      "path": "payload/media/audio/stops/qui223/manifest.json",
+      "byteSize": 41363,
+      "sha256": "cdca1a11ec4cc17c4d5a74595d9322940f5ff0502d3f3390e243b64c845dce35",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:audio:stops:reg8:manifest:json": {
+      "path": "payload/media/audio/stops/reg8/manifest.json",
+      "byteSize": 40989,
+      "sha256": "8fb0c99a203eaec6a34c6eb8a654616a9041ea5ea0784a5956ea30bba96365ea",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:images:app:icon:source:png": {
+      "path": "payload/media/images/app-icon-source.png",
+      "byteSize": 629775,
+      "sha256": "b32cab2f6e70260681d7bbb0be8351af38e9385cfd1caf5ff9fdb583bd0517ca",
+      "mediaType": "image/png"
+    },
+    "urn:vaoxr:realization:media:images:room:plan:png": {
+      "path": "payload/media/images/room-plan.png",
+      "byteSize": 1119354,
+      "sha256": "4bc00913a8c1d484675fc94aa6c6341ed72a7e814009de59fd1d43baac627091",
+      "mediaType": "image/png"
+    },
+    "urn:vaoxr:realization:media:models:organ:glb": {
+      "path": "payload/media/models/organ.glb",
+      "byteSize": 12474108,
+      "sha256": "0ade8620b00661447203eaca6860878d6c12e2f45ccc46da6b15943173cdc5b2",
+      "mediaType": "model/gltf-binary"
+    },
+    "urn:vaoxr:realization:media:performance:pachelbel:json": {
+      "path": "payload/media/performance/pachelbel.json",
+      "byteSize": 93512,
+      "sha256": "e094adedf8243ce8e848547f16eb79bc97e129217fde859dd07a1553aac9a763",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:reports:assets:json": {
+      "path": "payload/media/reports/assets.json",
+      "byteSize": 749,
+      "sha256": "b56dc46f250760a03f9a4ffa655fc90c14f0f729fc72f6f53772a315857789b1",
+      "mediaType": "application/json"
+    },
+    "urn:vaoxr:realization:media:reports:organ:export:json": {
+      "path": "payload/media/reports/organ-export.json",
+      "byteSize": 1343,
+      "sha256": "9e47b079fdda4f88625509836ef76d5e9c82874edc9bdaf7ee21bbbbb21bbc01",
+      "mediaType": "application/json"
+    }
+  }
+}

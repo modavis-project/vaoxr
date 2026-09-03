@@ -1,0 +1,53 @@
+{
+  "implementation": "PositivXR 0.2.0",
+  "vaoFormat": "0.5.0",
+  "roles": [
+    "reader",
+    "materializer",
+    "profile-processor"
+  ],
+  "profiles": [
+    "https://w3id.org/modavis/vao/profile/core/0.5.0",
+    "https://w3id.org/modavis/vao/profile/dynamic-delivery/0.5.0",
+    "https://w3id.org/modavis/vao/profile/playable/0.5.0",
+    "https://w3id.org/modavis/vao/profile/multimodal/0.5.0",
+    "https://w3id.org/modavis/vao/profile/physical-instrument/0.5.0",
+    "https://w3id.org/modavis/vao/profile/spatial/0.5.0"
+  ],
+  "capabilities": [
+    "https://w3id.org/modavis/vao/vocab/capability/core-graph",
+    "https://w3id.org/modavis/vao/vocab/capability/fixity",
+    "https://w3id.org/modavis/vao/vocab/capability/immutable-release",
+    "https://w3id.org/modavis/vao/vocab/capability/carrier-mapping",
+    "https://w3id.org/modavis/vao/vocab/capability/interaction",
+    "https://w3id.org/modavis/vao/vocab/capability/sampled-instrument-playback",
+    "https://w3id.org/modavis/vao/vocab/capability/looping",
+    "https://w3id.org/modavis/vao/vocab/capability/multimodal-synchronization",
+    "https://w3id.org/modavis/vao/vocab/capability/physical-system-topology",
+    "https://w3id.org/modavis/vao/vocab/capability/spatial"
+  ],
+  "testBundle": {
+    "source": "https://github.com/modavis-project/vao-standard/releases/tag/v0.5.0",
+    "sourceCommit": "ad2d4f09115e7bc883ac987ae6b4b89c0b2871c2",
+    "digest": "generated-by-release-builder"
+  },
+  "resourceLimits": {
+    "networkResolution": "same-origin versioned release only",
+    "maximumRealizationBytes": 134217728,
+    "maximumCachedPackBytes": "available browser quota minus ten percent reserve"
+  },
+  "externalStandards": [
+    "glTF 2.0",
+    "Web Audio API",
+    "WebXR Device API",
+    "MIDI 1.0 browser input",
+    "Ogg Opus",
+    "MPEG-4 AAC-LC"
+  ],
+  "knownLimitations": [
+    "The web reader consumes the published PositivXR release and does not accept arbitrary uploaded carriers.",
+    "Repository resolution is disabled outside the versioned same-origin release.",
+    "The browser does not claim validator, writer, extractor, linked-data projector, repository projector, or deterministic-runtime roles.",
+    "Scientific records are preserved and displayed as release metadata but are not independently evaluated by the browser."
+  ]
+}

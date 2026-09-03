@@ -1,0 +1,99 @@
+{
+  "profile": "vaoxr-ar-delivery-model-v1",
+  "generatedAt": "2026-09-02T16:52:17.257Z",
+  "source": {
+    "vaoRelease": "0.5.0-2",
+    "realizationId": "urn:vaoxr:realization:media:models:organ:glb",
+    "path": "/vao/releases/0.5.0-2/workspace/payload/media/models/organ.glb",
+    "sha256": "0ade8620b00661447203eaca6860878d6c12e2f45ccc46da6b15943173cdc5b2",
+    "bounds": {
+      "min": [
+        -4.538377,
+        0.020007,
+        -3.670195
+      ],
+      "max": [
+        4.091927,
+        12.507851,
+        0.290254
+      ]
+    }
+  },
+  "derivative": {
+    "path": "/media/models/organ-ar.glb",
+    "sha256": "36c8c4f258b2a983413be239a42706454e720d7955225a9d9b845da5935db76a",
+    "byteLength": 3647548,
+    "boundsMetres": {
+      "min": [
+        -0.962279,
+        0,
+        -0.44159
+      ],
+      "max": [
+        0.962279,
+        2.784789,
+        0.44159
+      ]
+    },
+    "physicalWidthMetres": 1.924557916584292,
+    "calibration": {
+      "sourceUnitMetres": 0.223,
+      "method": "Recovered Unity AR scene root scale and checked against museum object measurements",
+      "reference": "https://mimo-international.com/MIMO/doc/IFD/OAI_ULEI_M0000243",
+      "caseDimensionsMetres": {
+        "height": 2.49,
+        "width": 1.17,
+        "depth": 0.8
+      },
+      "note": "Delivery bounds include open doors and other projections beyond the closed case dimensions."
+    },
+    "floorAligned": true,
+    "compression": "KHR_draco_mesh_compression",
+    "textureFormat": "jpeg",
+    "textureMaxDimension": 2048,
+    "simplifyRatio": 1,
+    "simplifyError": 0,
+    "geometryBudget": {
+      "staticBodyRatio": 1,
+      "targetTriangles": 530000,
+      "tool": "Canonical topology and normals preserved; Draco transfer compression"
+    },
+    "animation": {
+      "name": "Pachelbel performance",
+      "durationSeconds": 30,
+      "audioDurationSeconds": 34.56,
+      "mapping": "native-time-clamp",
+      "audioTimeAtAnimationStartSeconds": 0,
+      "measuredAudibleStartSeconds": 0.086372,
+      "measuredAudibleEndSeconds": 30.975442,
+      "measuredTrailingSilenceSeconds": 3.584558,
+      "measurement": "FFmpeg silencedetect at -42 dB with an 80 ms minimum duration",
+      "sourceTimeline": "/vao/releases/0.5.0-2/workspace/payload/media/performance/pachelbel.json",
+      "trackCount": 34
+    }
+  },
+  "iosDerivative": {
+    "path": "/media/models/organ-ar.usdz",
+    "sha256": "4f0b81d10f5ddf5b4a9921c1f10c8dc219073eb9895b7530abfcd727cc55828b",
+    "byteLength": 11554975,
+    "animation": {
+      "name": "Pachelbel performance",
+      "durationSeconds": 30,
+      "audioDurationSeconds": 34.56,
+      "mapping": "native-time-clamp",
+      "audioTimeAtAnimationStartSeconds": 0,
+      "measuredAudibleStartSeconds": 0.086372,
+      "measuredAudibleEndSeconds": 30.975442,
+      "measuredTrailingSilenceSeconds": 3.584558,
+      "measurement": "FFmpeg silencedetect at -42 dB with an 80 ms minimum duration",
+      "sourceTimeline": "/vao/releases/0.5.0-2/workspace/payload/media/performance/pachelbel.json",
+      "trackCount": 34
+    },
+    "format": "USDZ",
+    "geometryBudget": {
+      "staticBodyRatioFromQuest": 0.04,
+      "targetTriangles": 22000,
+      "tool": "Blender Decimate"
+    }
+  }
+}

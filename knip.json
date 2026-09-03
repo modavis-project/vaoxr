@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "app/layout.tsx",
+    "app/page.tsx",
+    "app/**/page.tsx",
+    "worker/index.ts",
+    "next.config.ts",
+    "scripts/**/*.mjs"
+  ],
+  "project": ["**/*.{ts,tsx,mts,mjs}"],
+  "ignore": ["lib/services/contracts.ts", "lib/content/schemas.ts", "lib/content/index.ts", "lib/storage/packDatabase.ts"],
+  "ignoreDependencies": ["@gltf-transform/cli", "@types/webxr", "next"],
+  "ignoreBinaries": ["python3"]
+}

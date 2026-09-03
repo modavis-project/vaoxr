@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/apple-touch-icon.png",
+    "byteLength": 84520,
+    "sha256": "3247162e5185a1dc75318490d7948f965e72c156eeb8796d29c58f8c17d2ab6d"
+  },
+  {
+    "path": "/icon-192.png",
+    "byteLength": 95841,
+    "sha256": "4f01efc6a5585cc7b0a8acebb070c5219a5490e5eb617283ccd263edab9a2728"
+  },
+  {
+    "path": "/icon-512.png",
+    "byteLength": 629775,
+    "sha256": "b32cab2f6e70260681d7bbb0be8351af38e9385cfd1caf5ff9fdb583bd0517ca"
+  },
+  {
+    "path": "/icon-maskable-192.png",
+    "byteLength": 42680,
+    "sha256": "3de6a6f393081aeb7ce789d002580e9113ef9e9010fd755a1d00e9dc700cba5e"
+  },
+  {
+    "path": "/icon-maskable-512.png",
+    "byteLength": 298780,
+    "sha256": "66ad386aa9e157d823e0857bd329d5261286b029305acf74bd7d4c28b7ac7f24"
+  },
+  {
+    "path": "/social-card.png",
+    "byteLength": 422380,
+    "sha256": "a8e65a173160a393dc71912b74f164d0af1006181419e9ed4ed83797670191c1"
+  }
+]

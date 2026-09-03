@@ -1,0 +1,16 @@
+.git
+.gitignore
+.vao-venv
+.vinext
+.wrangler
+dist
+node_modules
+test-results
+work
+vendor
+docs
+scripts/*
+!scripts/serve.mjs
+tests
+*.log
+tsconfig.tsbuildinfo

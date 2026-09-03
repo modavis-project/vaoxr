@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026.09.02-calibrated.2",
+  "id": "cuntz-positive-organ",
+  "name": "Positive Organ",
+  "maker": "Cuntz",
+  "model": {
+    "url": "/vao/releases/0.5.0-2/workspace/payload/media/models/organ.glb",
+    "realizationId": "urn:vaoxr:realization:media:models:organ:glb",
+    "sha256": "0ade8620b00661447203eaca6860878d6c12e2f45ccc46da6b15943173cdc5b2",
+    "physicalWidthMetres": 1.924557916584292,
+    "physicalCalibration": {
+      "sourceUnitMetres": 0.223,
+      "status": "inferred",
+      "method": "Recovered from the original Unity AR scene root transform and cross-checked against museum measurements",
+      "reference": "https://mimo-international.com/MIMO/doc/IFD/OAI_ULEI_M0000243",
+      "closedCaseDimensionsMetres": {
+        "height": 2.49,
+        "width": 1.17,
+        "depth": 0.8
+      },
+      "openModelBoundsMetres": {
+        "minimum": [-0.962279, 0, -0.44159],
+        "maximum": [0.962279, 2.784789, 0.44159]
+      },
+      "note": "physicalWidthMetres is the open-configuration scan width; the MIMO width describes the closed case."
+    },
+    "markerWidthMetres": 0.2,
+    "display": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    }
+  },
+  "performance": {
+    "id": "pachelbel",
+    "label": "Play performance",
+    "audioUrl": "/vao/releases/0.5.0-2/workspace/payload/media/audio/performance.mp3",
+    "audioRealizationId": "urn:vaoxr:realization:media:audio:performance:mp3",
+    "durationSeconds": 34.56,
+    "animationDurationSeconds": 30,
+    "timelineUrl": "/vao/releases/0.5.0-2/workspace/payload/media/performance/pachelbel.json",
+    "timelineRealizationId": "urn:vaoxr:realization:media:performance:pachelbel:json",
+    "sync": {
+      "mode": "native-time-clamp",
+      "audioTimeAtAnimationStartSeconds": 0,
+      "measuredAudibleStartSeconds": 0.086372,
+      "measuredAudibleEndSeconds": 30.975442,
+      "measuredTrailingSilenceSeconds": 3.584558,
+      "measurement": "FFmpeg silencedetect at -42 dB with an 80 ms minimum duration"
+    }
+  },
+  "notes": [
+    36,
+    38,
+    40,
+    41,
+    43,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "stops": [
+    {
+      "id": "ged",
+      "label": "Gedackt 8′",
+      "packVersion": "1",
+      "manifestUrl": "/vao/releases/0.5.0-2/workspace/payload/media/audio/stops/ged/manifest.json",
+      "manifestRealizationId": "urn:vaoxr:realization:media:audio:stops:ged:manifest:json",
+      "defaultSelected": true
+    },
+    {
+      "id": "princ4",
+      "label": "Principal 4′",
+      "packVersion": "1",
+      "manifestUrl": "/vao/releases/0.5.0-2/workspace/payload/media/audio/stops/princ4/manifest.json",
+      "manifestRealizationId": "urn:vaoxr:realization:media:audio:stops:princ4:manifest:json",
+      "defaultSelected": false
+    },
+    {
+      "id": "princ2",
+      "label": "Principal 2′",
+      "packVersion": "1",
+      "manifestUrl": "/vao/releases/0.5.0-2/workspace/payload/media/audio/stops/princ2/manifest.json",
+      "manifestRealizationId": "urn:vaoxr:realization:media:audio:stops:princ2:manifest:json",
+      "defaultSelected": false
+    },
+    {
+      "id": "qui223",
+      "label": "Quint 2⅔′",
+      "packVersion": "1",
+      "manifestUrl": "/vao/releases/0.5.0-2/workspace/payload/media/audio/stops/qui223/manifest.json",
+      "manifestRealizationId": "urn:vaoxr:realization:media:audio:stops:qui223:manifest:json",
+      "defaultSelected": false
+    },
+    {
+      "id": "reg8",
+      "label": "Regal 8′",
+      "packVersion": "1",
+      "manifestUrl": "/vao/releases/0.5.0-2/workspace/payload/media/audio/stops/reg8/manifest.json",
+      "manifestRealizationId": "urn:vaoxr:realization:media:audio:stops:reg8:manifest:json",
+      "defaultSelected": false
+    }
+  ],
+  "licence": {
+    "status": "supplied-by-project-owner",
+    "attribution": "PositivXR source archive"
+  }
+}

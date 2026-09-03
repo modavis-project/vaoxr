@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vaoxr.modavis.org/vao/schemas/vaoxr-application-0.5.0.schema.json",
+  "title": "PositivXR VAO application binding 0.5.0",
+  "description": "Versioned application hints that bind the PositivXR experience to exact VAO 0.5.0 realization identifiers. The VAO manifest and carrier descriptors remain authoritative for identity, fixity, rights, profiles, and delivery.",
+  "type": "object",
+  "required": ["schema", "canonicalManifest", "releaseDescriptor", "workspaceBaseUrl", "carriers", "application"],
+  "properties": {
+    "schema": { "const": "https://vaoxr.modavis.org/vao/schemas/vaoxr-application-0.5.0.schema.json" },
+    "canonicalManifest": { "$ref": "#/$defs/rootRelativePath" },
+    "releaseDescriptor": { "$ref": "#/$defs/rootRelativePath" },
+    "workspaceBaseUrl": { "$ref": "#/$defs/rootRelativePath" },
+    "carriers": {
+      "type": "object",
+      "required": ["bootstrap", "preservationClosure"],
+      "properties": {
+        "bootstrap": { "$ref": "#/$defs/carrier" },
+        "preservationClosure": { "$ref": "#/$defs/carrier" }
+      },
+      "additionalProperties": false
+    },
+    "application": {
+      "type": "object",
+      "required": ["instrumentConfig", "buildingConfig", "model", "performanceAudio", "performanceTimeline", "markerImage", "markerTarget", "floorPlan", "stopManifests", "roomRecordings"],
+      "properties": {
+        "instrumentConfig": { "$ref": "#/$defs/sourceConfig" },
+        "buildingConfig": { "$ref": "#/$defs/sourceConfig" },
+        "model": { "$ref": "#/$defs/identifier" },
+        "performanceAudio": { "$ref": "#/$defs/identifier" },
+        "performanceTimeline": { "$ref": "#/$defs/identifier" },
+        "markerImage": { "$ref": "#/$defs/identifier" },
+        "markerTarget": { "$ref": "#/$defs/identifier" },
+        "floorPlan": { "$ref": "#/$defs/identifier" },
+        "stopManifests": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "$ref": "#/$defs/identifier" }
+        },
+        "roomRecordings": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "$ref": "#/$defs/identifier" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "identifier": { "type": "string", "format": "uri", "minLength": 1 },
+    "rootRelativePath": { "type": "string", "pattern": "^/[^\\s]*$" },
+    "carrier": {
+      "type": "object",
+      "required": ["id", "url"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifier" },
+        "url": { "$ref": "#/$defs/rootRelativePath" }
+      },
+      "additionalProperties": false
+    },
+    "sourceConfig": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

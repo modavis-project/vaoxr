@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vao-standard-tools"
+version = "0.5.0"
+description = "Reference validation and release tools for the Virtual Acoustic Object standard"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [
+  {name = "Dominik Ukolov"}
+]
+dependencies = [
+  "jsonschema[format]>=4.26,<5",
+  "rfc8785>=0.1,<1"
+]
+
+[project.optional-dependencies]
+dev = [
+  "check-jsonschema>=0.38,<1",
+  "pyshacl>=0.30,<1",
+  "PyYAML>=6,<7",
+  "rdflib>=7,<8",
+  "reuse>=6.2,<7",
+  "ruff>=0.16,<1"
+]
+
+[project.urls]
+Repository = "https://github.com/modavis-project/vao-standard"
+Specification = "https://w3id.org/modavis/vao/0.5.0/"
+
+[project.scripts]
+vao04 = "vao04:main"
+vao05 = "vao05:main"
+
+[tool.setuptools]
+py-modules = ["vao03", "vao04", "vao04_interop", "vao04_rdf", "vao04_runtime", "vao05", "vao05_interop", "vao05_rdf", "vao05_runtime", "vao_resources", "vaom"]
+packages = ["vao_standard_schemas"]
+package-dir = {"" = "Tools", vao_standard_schemas = "Schemas"}
+
+[tool.setuptools.package-data]
+vao_standard_schemas = ["*.json", "*.jsonld", "*.ttl", "README.md"]

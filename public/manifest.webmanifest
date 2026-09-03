@@ -1,0 +1,44 @@
+{
+  "name": "vaoXR — Virtual Positive Organ",
+  "short_name": "vaoXR",
+  "description": "Explore, hear, play, and place a historic positive organ in mixed reality.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "music", "entertainment"],
+  "background_color": "#f3f0e9",
+  "theme_color": "#f3f0e9",
+  "orientation": "any",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mobile AR",
+      "short_name": "Mobile AR",
+      "description": "Place the organ in your room with a supported phone.",
+      "url": "/ar",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Quest mixed reality",
+      "short_name": "Quest AR",
+      "description": "Place and control the organ in Meta Quest passthrough.",
+      "url": "/ar/quest",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Play the organ",
+      "short_name": "Play",
+      "description": "Play the sampled virtual organ.",
+      "url": "/play",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

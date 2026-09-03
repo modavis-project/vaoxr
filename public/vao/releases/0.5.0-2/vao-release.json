@@ -1,0 +1,65 @@
+{
+  "$schema": "https://w3id.org/modavis/vao/0.5.0/schema/release.json",
+  "type": "VAORelease",
+  "formatVersion": "0.5.0",
+  "vaoId": "https://vaoxr.modavis.org/vao/positivxr",
+  "releaseId": "https://vaoxr.modavis.org/vao/releases/0.5.0-2",
+  "revision": 2,
+  "contentVersion": "0.5.0-2",
+  "publication": {
+    "topology": "single-record",
+    "rootRecord": {
+      "id": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/record",
+      "repositoryType": "https://vaoxr.modavis.org/ns/repository/static-http",
+      "instance": "https://vaoxr.modavis.org",
+      "versionPersistentIdentifier": "https://vaoxr.modavis.org/vao/releases/0.5.0-2",
+      "conceptPersistentIdentifier": "https://vaoxr.modavis.org/vao/positivxr",
+      "recordIdentifier": "positivxr-0.5.0-2",
+      "files": [
+        {
+          "fileIdentifier": "vao-manifest.json",
+          "role": "manifest",
+          "byteSize": 1829038,
+          "sha256": "6efeed6c56639c524461b86b00d452fb15c1b9833a2b227eafe4c5a9865abbd6"
+        },
+        {
+          "fileIdentifier": "positivxr-bootstrap-0.5.0.vao",
+          "role": "carrier",
+          "byteSize": 2054610,
+          "sha256": "9603f5384734352da0a47bf51c396231d98494e4f9e53198d2a038c7ee75be5d",
+          "carrierId": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/carriers/bootstrap",
+          "carrierMode": "bootstrap",
+          "manifestSHA256": "6efeed6c56639c524461b86b00d452fb15c1b9833a2b227eafe4c5a9865abbd6",
+          "manifestByteSize": 1829038,
+          "carrierDescriptorSHA256": "7758ed17cc62e30c74686a725f4039cb76fe4cbb2204d37d3b22cb39e5ebf633",
+          "carrierDescriptorByteSize": 2308,
+          "completeGroupIds": [
+            "urn:vaoxr:asset-group:bootstrap"
+          ]
+        },
+        {
+          "fileIdentifier": "positivxr-preservation-0.5.0.vao",
+          "role": "carrier",
+          "byteSize": 57138505,
+          "sha256": "abfada650747919ed9aee602e2e69c830854a1a1a03d248dfb3fe069c6974de1",
+          "carrierId": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/carriers/preservation-closure",
+          "carrierMode": "preservation-closure",
+          "manifestSHA256": "6efeed6c56639c524461b86b00d452fb15c1b9833a2b227eafe4c5a9865abbd6",
+          "manifestByteSize": 1829038,
+          "carrierDescriptorSHA256": "0ba5c7447b757c0c92eca66d5f52caa4acd824a955c3cd1b08737d2a16f2a093",
+          "carrierDescriptorByteSize": 70745,
+          "completeGroupIds": [
+            "urn:vaoxr:asset-group:bootstrap",
+            "urn:vaoxr:asset-group:visual",
+            "urn:vaoxr:asset-group:performance",
+            "urn:vaoxr:asset-group:room",
+            "urn:vaoxr:asset-group:ar",
+            "urn:vaoxr:asset-group:playable-opus",
+            "urn:vaoxr:asset-group:playable-aac"
+          ]
+        }
+      ]
+    },
+    "familyMembers": []
+  }
+}

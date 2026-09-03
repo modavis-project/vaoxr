@@ -1,0 +1,57 @@
+{
+  "title": "vaoXR 0.1.0",
+  "upload_type": "software",
+  "version": "0.1.0",
+  "publication_date": "2026-09-03",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Ukolov, Dominik",
+      "orcid": "0000-0002-7904-3892",
+      "affiliation": "Digital Humanities (Image/Object), Friedrich Schiller University Jena; Research Group DIGITAL ORGANOLOGY, Leipzig University"
+    }
+  ],
+  "description": "<p>vaoXR is an installable web application for exploring a historic positive organ through its linked 3D model, recordings, sampled stops, and performance animation. It implements a reader for Virtual Acoustic Object (VAO) Standard 0.5.0.</p><p>Version 0.1.0 includes a 3D viewer with audio-clock-driven key animation, four room-listening positions, a 45-note sampled manual with five selectable stops and VAO-defined sustain loops, markerless mobile augmented reality, and a dedicated Meta Quest 3 passthrough experience. Quest supports controller-based scale and light controls and experimental direct hand interaction with keys and stops. The progressive web app provides an offline shell, optional sample-pack downloads, and browser capability guidance.</p><p>This record archives the software source. The demo instrument release is version 0.5.0-2; its version and the VAO standard version are independent of the software version. Large instrument media and Unity source assets are not included in this software archive. A supplied setup script downloads the pinned demo assets separately and verifies their byte sizes and SHA-256 hashes. Source media and bundled third-party software retain their respective rights and notices.</p><p>Original application code is licensed under Apache License 2.0. Original documentation is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). NOTICE defines the file-level scope; third-party code and source-specific instrument data retain their own rights and notices.</p><p>Requirements: Node.js 22.13 or newer and Python 3.11 or newer. The repository includes a lockfile, automated tests, pinned VAO validation tools, and a standalone Node/Docker deployment configuration. Physical-device behavior, native phone AR capabilities, and experimental Quest hand interaction depend on the device and browser.</p><p>Live application: <a href=\"https://vaoxr.modavis.org\">https://vaoxr.modavis.org</a>. Source and release: <a href=\"https://github.com/modavis-project/vaoxr/releases/tag/v0.1.0\">vaoXR v0.1.0 on GitHub</a>. See README.md, CITATION.cff, and THIRD_PARTY_NOTICES.md in the archive for setup, citation, and source-specific rights.</p>",
+  "keywords": [
+    "Virtual Acoustic Object",
+    "VAO 0.5.0",
+    "digital organology",
+    "musical instrument",
+    "positive organ",
+    "WebXR",
+    "augmented reality",
+    "Meta Quest 3",
+    "Web Audio",
+    "progressive web application",
+    "cultural heritage"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/modavis-project/vaoxr/releases/tag/v0.1.0",
+      "relation": "isIdenticalTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/modavis-project/vaoxr",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://vaoxr.modavis.org",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.22214248",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/vao-release.json",
+      "relation": "requires",
+      "resource_type": "dataset"
+    }
+  ],
+  "license": "apache-2.0",
+  "notes": "The archive contains the tagged vaoXR 0.1.0 source snapshot. SHA256SUMS provides its SHA-256 digest. The primary software license is Apache-2.0; original documentation is CC-BY-4.0, with scope and exceptions in NOTICE and THIRD_PARTY_NOTICES.md. The instrument dataset and the VAO standard have separate versions and identifiers."
+}

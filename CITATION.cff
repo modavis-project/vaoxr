@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use vaoXR in your work, please cite the software version."
+title: "vaoXR"
+type: software
+version: "0.1.0"
+date-released: "2026-09-03"
+doi: "10.5281/zenodo.22280620"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+authors:
+  - family-names: Ukolov
+    given-names: Dominik
+    orcid: "https://orcid.org/0000-0002-7904-3892"
+    affiliation: "Digital Humanities (Image/Object), Friedrich Schiller University Jena; Research Group DIGITAL ORGANOLOGY, Leipzig University"
+repository-code: "https://github.com/modavis-project/vaoxr"
+url: "https://vaoxr.modavis.org"
+abstract: >-
+  An installable web application for exploring a historic positive organ
+  through its VAO-linked 3D model, recordings, sampled stops, and performance
+  animation. Includes markerless mobile augmented reality, Meta Quest 3
+  passthrough, experimental hand-playing, controller scale and light controls,
+  and opt-in offline sample packs. Implements a reader for VAO Standard 0.5.0.
+keywords:
+  - Virtual Acoustic Object
+  - musical instrument
+  - digital organology
+  - WebXR
+  - augmented reality
+  - Meta Quest
+  - Web Audio
+  - progressive web application
+references:
+  - type: software
+    title: "Virtual Acoustic Object (VAO) Standard"
+    version: "0.5.0"
+    doi: "10.5281/zenodo.22214248"
+    repository-code: "https://github.com/modavis-project/vao-standard"

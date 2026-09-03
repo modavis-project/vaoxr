@@ -1,0 +1,18 @@
+{
+  "formatVersion": "0.5.0",
+  "vaoId": "https://vaoxr.modavis.org/vao/positivxr",
+  "releaseId": "https://vaoxr.modavis.org/vao/releases/0.5.0-2",
+  "contentVersion": "0.5.0-2",
+  "manifest": "/vao/releases/0.5.0-2/vao-manifest.json",
+  "releaseDescriptor": "/vao/releases/0.5.0-2/vao-release.json",
+  "carriers": {
+    "bootstrap": {
+      "id": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/carriers/bootstrap",
+      "url": "/vao/releases/0.5.0-2/positivxr-bootstrap-0.5.0.vao"
+    },
+    "preservationClosure": {
+      "id": "https://vaoxr.modavis.org/vao/releases/0.5.0-2/carriers/preservation-closure",
+      "url": "/vao/releases/0.5.0-2/positivxr-preservation-0.5.0.vao"
+    }
+  }
+}

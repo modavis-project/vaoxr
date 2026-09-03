@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026.08.12-mvp",
+  "id": "organ-room",
+  "name": "Organ room",
+  "floorPlanUrl": "/vao/releases/0.5.0-2/workspace/payload/media/images/room-plan.png",
+  "floorPlanRealizationId": "urn:vaoxr:realization:media:images:room:plan:png",
+  "points": [
+    { "id": "main-hall", "label": "Main hall", "shortLabel": "Main", "description": "A balanced perspective from the centre of the room.", "position": { "x": 0.552, "y": 0.435 }, "audio": { "mp3": "/vao/releases/0.5.0-2/workspace/payload/media/audio/room/main-hall.mp3", "realizationId": "urn:vaoxr:realization:media:audio:room:main:hall:mp3" } },
+    { "id": "under-gallery", "label": "Under the gallery", "shortLabel": "Gallery", "description": "A darker, more enclosed response beneath the organ gallery.", "position": { "x": 0.503, "y": 0.66 }, "audio": { "mp3": "/vao/releases/0.5.0-2/workspace/payload/media/audio/room/under-gallery.mp3", "realizationId": "urn:vaoxr:realization:media:audio:room:under:gallery:mp3" } },
+    { "id": "player-position", "label": "Player position", "shortLabel": "Player", "description": "Hear the direct mechanical presence from the performer’s position.", "position": { "x": 0.5, "y": 0.742 }, "audio": { "mp3": "/vao/releases/0.5.0-2/workspace/payload/media/audio/room/player-position.mp3", "realizationId": "urn:vaoxr:realization:media:audio:room:player:position:mp3" } },
+    { "id": "right-wall", "label": "Right wall", "shortLabel": "Wall", "description": "A lateral position where early reflections become more pronounced.", "position": { "x": 0.682, "y": 0.806 }, "audio": { "mp3": "/vao/releases/0.5.0-2/workspace/payload/media/audio/room/right-wall.mp3", "realizationId": "urn:vaoxr:realization:media:audio:room:right:wall:mp3" } }
+  ]
+}
