@@ -16,7 +16,7 @@ test("VAO release records and both carriers are published", async ({ page, reque
   await expect(page.getByRole("heading", { name: "About the VAO standard" })).toBeVisible();
   await expect(page.getByRole("heading", { name: /how the manifest drives each view/i })).toBeVisible();
   await expect(page.getByText(/byte size and SHA-256 are checked/i)).toBeVisible();
-  await expect(page.getByRole("link", { name: /Read the VAO 0.5.0 specification/i })).toHaveAttribute("href", /github\.com\/modavis-project\/vao-standard\/tree\/v0\.5\.0/);
+  await expect(page.getByRole("link", { name: /Read the VAO 0.6.0 specification/i })).toHaveAttribute("href", /github\.com\/modavis-project\/vao-standard\/tree\/v0\.6\.0/);
   const manifest = await request.get("/vao/releases/0.5.0-2/vao-manifest.json");
   expect(manifest.ok()).toBe(true);
   const manifestBytes = await manifest.body();
@@ -28,6 +28,30 @@ test("VAO release records and both carriers are published", async ({ page, reque
   expect(bootstrap.headers()["content-type"]).toContain("application/vnd.modavis.vao+zip");
   expect(bootstrap.headers()["cache-control"]).toContain("immutable");
   expect(bootstrap.headers()["x-content-type-options"]).toBe("nosniff");
+});
+
+test("the standard page reads VAO 0.5 and 0.6 and previews embedded WAV audio", async ({ page }) => {
+  await page.goto("/standard");
+  const input = page.getByLabel("VAO carrier or manifest");
+  const inspector = page.getByRole("region", { name: "Inspect a VAO file" });
+  for (const version of ["0.5.0", "0.6.0"]) {
+    await input.setInputFiles("tests/fixtures/vao/minimal-" + version + ".vao");
+    await expect(inspector.getByText("VAO " + version, { exact: true })).toBeVisible();
+  }
+  await input.setInputFiles("tests/fixtures/vao/mmic-1.0.0-roll.vao");
+  await expect(inspector.getByRole("heading", { name: "Synthetic MMIC roll" })).toBeVisible();
+  await expect(inspector.getByText(/profile version 1\.0\.0/)).toBeVisible();
+  const audio = inspector.locator("audio");
+  await expect(audio).toHaveAttribute("src", /^blob:/);
+  await expect(audio).toHaveAttribute("controls", "");
+  await audio.evaluate((element: HTMLAudioElement) => {
+    element.preload = "metadata";
+    element.load();
+  });
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.duration)).toBeGreaterThan(0);
+  await input.setInputFiles({ name: "unknown.json", mimeType: "application/json", buffer: Buffer.from("{}") });
+  await expect(inspector.getByRole("alert")).toContainText("Choose a VAO 0.5.0 or 0.6.0 manifest");
+  await expect(audio).toHaveCount(0);
 });
 
 test("home and room do not request 3D, tracker, or stop packs", async ({ page }) => {

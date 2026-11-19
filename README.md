@@ -26,6 +26,15 @@ physical measurements, and provenance.
 The [VAO information page](https://vaoxr.modavis.org/standard) explains which
 parts of the standard the application uses.
 
+On the same page, open a local VAO 0.5.0 or 0.6.0 manifest or carrier to see its
+release, asset counts, and declared profiles. For carriers, the browser checks
+the manifest size and SHA-256 against the carrier descriptor. It can play one
+embedded WAV, MP3, Ogg, or MP4 audio file after checking its bytes. Local files
+stay on the device. Carrier, manifest and preview limits are 32, 4 and 8 MiB,
+respectively. Use the VAO reference tools for conformance and MMIC processing.
+The Cuntz organ experiences use the pinned 0.5.0 instrument release.
+
+
 ## Run locally
 
 Requirements: Node.js 22.13 or newer, npm, and Python 3.11 or newer.

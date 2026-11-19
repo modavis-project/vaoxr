@@ -18,10 +18,11 @@ import {
 import { PageIntro } from "@/app/components/PageIntro";
 import { instrument } from "@/lib/content";
 import { vaoRelease } from "@/lib/vao/release";
+import { VaoInspector } from "./VaoInspector";
 
 export const metadata: Metadata = {
   title: "About the VAO standard",
-  description: "Learn what the Virtual Acoustic Object standard is and how vaoXR uses its VAO 0.5.0 release.",
+  description: "Learn how vaoXR uses the Virtual Acoustic Object standard and inspect a VAO 0.5.0 or 0.6.0 file.",
 };
 
 const profiles = [
@@ -80,7 +81,7 @@ export default function StandardPage() {
         <p className="eyebrow">What VAO does</p>
         <h2 id="vao-overview-title">Models, recordings, and instrument data</h2>
         <p>VAO connects descriptive metadata, measurements, recordings, images, 3D models, interaction data, provenance, rights, and exact file identities. It does not replace formats such as GLB, MP3, JSON, or USDZ; it describes how those files belong together and what evidence supports them.</p>
-        <a className="button" href="https://github.com/modavis-project/vao-standard/tree/v0.5.0" target="_blank" rel="noreferrer">Read the VAO 0.5.0 specification <ExternalLink size={16} /></a>
+        <a className="button" href="https://github.com/modavis-project/vao-standard/tree/v0.6.0" target="_blank" rel="noreferrer">Read the VAO 0.6.0 specification <ExternalLink size={16} /></a>
       </div>
       <div className="vao-principles" aria-label="VAO principles">
         <article><Link2 size={20} /><div><h3>Connect</h3><p>Describe relationships between the physical object, media, measurements, and interactions.</p></div></article>
@@ -88,6 +89,8 @@ export default function StandardPage() {
         <article><PackageCheck size={20} /><div><h3>Exchange and preserve</h3><p>Carry one semantic release in bootstrap, preservation, or purpose-built packages.</p></div></article>
       </div>
     </section>
+
+    <VaoInspector />
 
     <section className="vao-use" aria-labelledby="vao-use-title">
       <div className="vao-section-heading">

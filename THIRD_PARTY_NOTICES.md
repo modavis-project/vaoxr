@@ -13,6 +13,18 @@ CC-BY-4.0. The upstream `LICENSE`, `NOTICE`, `REUSE.toml`, and complete license
 texts are retained in that directory. Documentation links to files outside the
 vendored subset should be followed in the upstream repository.
 
+## VAO inspection fixtures
+
+The test carriers in `tests/fixtures/vao/` use synthetic material from
+[VAO Standard v0.6.0](https://github.com/modavis-project/vao-standard/tree/v0.6.0),
+commit `9d477213eab90defa75bef0f44e0d292a83e68d9`. The 0.5.0 carrier and
+1.0.0 MMIC roll carrier are copied byte for byte. The generic 0.6.0 carrier
+was created from the released 0.5 workspace using the official migration
+and packing tools. See the fixture directory for hashes and source paths.
+MMIC synthetic fixture data are CC0-1.0, with Apache-2.0 for the bundled
+reference code and environment lock as identified in the carrier. The
+minimal fixture and migration provenance retain their declared rights.
+
 ## Draco
 
 `public/draco/gltf/` contains the glTF Draco decoder distributed with Three.js
@@ -26,6 +38,11 @@ under Apache-2.0. The complete license is in
 `worker/index.ts` and the build setup were adapted from the vinext starter.
 Copyright (c) 2026 Cloudflare, Inc. The MIT license is reproduced in
 `LICENSES/MIT-vinext.txt`.
+
+## Zip.js
+
+The local carrier inspector uses [Zip.js](https://github.com/gildas-lormeau/zip.js)
+under the BSD-3-Clause license. See `LICENSES/BSD-3-Clause-zip.js.txt`.
 
 ## npm dependencies
 

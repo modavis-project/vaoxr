@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@google/model-viewer": "4.3.1",
+    "@zip.js/zip.js": "2.25.0",
     "lucide-react": "^0.544.0",
     "mind-ar": "1.2.5",
     "react": "19.2.8",
@@ -67,6 +68,7 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.1.1",
     "fake-indexeddb": "6.2.2",
+    "fflate": "0.8.3",
     "globals": "16.4.0",
     "jsdom": "26.1.0",
     "knip": "5.63.1",

@@ -1,16 +1,13 @@
 import { getVaoRealization, getVaoRealizationByUrl, getVaoRealizationUrl } from "./release";
+import { sha256Hex } from "./sha256";
 
 const maximumMaterializationBytes = 128 * 1024 * 1024;
-
-function toHex(bytes: ArrayBuffer): string {
-  return [...new Uint8Array(bytes)].map((value) => value.toString(16).padStart(2, "0")).join("");
-}
 
 async function verifyVaoBytes(realizationId: string, bytes: ArrayBuffer): Promise<void> {
   const realization = getVaoRealization(realizationId);
   if (realization.byteSize > maximumMaterializationBytes) throw new Error(`VAO realization exceeds the local materialization limit: ${realizationId}`);
   if (bytes.byteLength !== realization.byteSize) throw new Error(`VAO byte-size verification failed: ${realizationId}`);
-  const digest = toHex(await crypto.subtle.digest("SHA-256", bytes));
+  const digest = await sha256Hex(bytes);
   if (digest !== realization.sha256) throw new Error(`VAO SHA-256 verification failed: ${realizationId}`);
 }
 
