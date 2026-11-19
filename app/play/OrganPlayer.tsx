@@ -33,10 +33,11 @@ export function OrganPlayer() {
 
   useEffect(() => {
     const savedStops = localStorage.getItem("positivxr:selected-stops");
-    const savedVolume = Number(localStorage.getItem("positivxr:volume"));
+    const savedVolumeValue = localStorage.getItem("positivxr:volume");
+    const savedVolume = Number(savedVolumeValue);
     const timer = window.setTimeout(() => {
       if (savedStops) { const ids = JSON.parse(savedStops) as string[]; if (ids.length) setSelectedStops(new Set(ids)); }
-      if (Number.isFinite(savedVolume) && savedVolume >= 0 && savedVolume <= 1) setVolume(savedVolume);
+      if (savedVolumeValue !== null && Number.isFinite(savedVolume) && savedVolume >= 0 && savedVolume <= 1) setVolume(savedVolume);
       setMidiAvailable("requestMIDIAccess" in navigator);
     });
     const engine = new WebAudioEngine(); engineRef.current = engine;
