@@ -67,7 +67,7 @@ def download(public_root, relative, size, digest):
         verify(target.read_bytes(), size, digest, relative)
         return target
     print(f"Downloading {relative} ({size:,} bytes)", flush=True)
-    request = Request(f"{ORIGIN}/{relative}", headers={"User-Agent": "vaoXR/0.1.0 media-fetch", "Accept-Encoding": "identity"})
+    request = Request(f"{ORIGIN}/{relative}", headers={"User-Agent": "vaoXR/0.2.0 media-fetch", "Accept-Encoding": "identity"})
     with urlopen(request, timeout=120) as response:
         if not response.url.startswith(ORIGIN + "/"):
             raise ValueError("Media download redirected to an unexpected origin")

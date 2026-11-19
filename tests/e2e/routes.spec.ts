@@ -64,9 +64,15 @@ test("home and room do not request 3D, tracker, or stop packs", async ({ page })
 
 test("player is gesture gated and defaults to Gedackt", async ({ page }) => {
   await page.goto("/play");
+  await page.waitForLoadState("networkidle");
   await expect(page.getByRole("button", { name: "Activate audio" })).toBeVisible();
   await expect(page.getByRole("button", { name: /Gedackt 8/ })).toHaveAttribute("aria-pressed", "true");
   await expect(page.locator("[data-midi]")).toHaveCount(45);
+  const volume = page.getByRole("slider", { name: "Volume" });
+  await expect(volume).toHaveValue("0.72");
+  await page.evaluate(() => localStorage.setItem("positivxr:volume", "0"));
+  await page.reload();
+  await expect(volume).toHaveValue("0");
 });
 
 test("room points select exclusively and expose progress", async ({ page }) => {

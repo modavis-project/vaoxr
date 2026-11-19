@@ -1,8 +1,7 @@
 # vaoXR
 
-[![Release](https://img.shields.io/github/v/release/modavis-project/vaoxr)](https://github.com/modavis-project/vaoxr/releases/tag/v0.1.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22280620.svg)](https://doi.org/10.5281/zenodo.22280620)
-[![VAO 0.5.0](https://img.shields.io/badge/VAO-0.5.0-2C5F73)](https://github.com/modavis-project/vao-standard/tree/v0.5.0)
+[![Release](https://img.shields.io/github/v/release/modavis-project/vaoxr)](https://github.com/modavis-project/vaoxr/releases/tag/v0.2.0)
+[![VAO 0.6.0 inspection](https://img.shields.io/badge/VAO-0.6.0%20inspection-2C5F73)](https://github.com/modavis-project/vao-standard/tree/v0.6.0)
 [![Code license](https://img.shields.io/badge/code-Apache--2.0-blue)](LICENSE)
 
 vaoXR is an installable web application for exploring, hearing, playing, and
@@ -23,17 +22,12 @@ physical measurements, and provenance.
   with controllers, and try direct hand interaction with keys and stops.
 - **Offline:** install the PWA and download individual stop packs on demand.
 
-The [VAO information page](https://vaoxr.modavis.org/standard) explains which
-parts of the standard the application uses.
-
-On the same page, open a local VAO 0.5.0 or 0.6.0 manifest or carrier to see its
-release, asset counts, and declared profiles. For carriers, the browser checks
+On the VAO Standard page (`/standard`), open a local VAO 0.5.0 or 0.6.0 manifest
+or carrier to see its release, asset counts, and declared profiles. For carriers, the browser checks
 the manifest size and SHA-256 against the carrier descriptor. It can play one
 embedded WAV, MP3, Ogg, or MP4 audio file after checking its bytes. Local files
 stay on the device. Carrier, manifest and preview limits are 32, 4 and 8 MiB,
 respectively. Use the VAO reference tools for conformance and MMIC processing.
-The Cuntz organ experiences use the pinned 0.5.0 instrument release.
-
 
 ## Run locally
 
@@ -42,7 +36,7 @@ Requirements: Node.js 22.13 or newer, npm, and Python 3.11 or newer.
 ```bash
 git clone https://github.com/modavis-project/vaoxr.git
 cd vaoxr
-git checkout v0.1.0
+git checkout v0.2.0
 npm ci
 npm run media:fetch
 npm run dev
@@ -63,6 +57,9 @@ npm run start
 The production server listens on port 3000 by default. Set `HOST` and `PORT` to
 override this. Device AR requires HTTPS or a trusted local development origin;
 plain HTTP over a LAN address is not sufficient.
+
+The default build targets Node.js. Set `VAOXR_BUILD_TARGET=worker` when building
+for Cloudflare Workers.
 
 ## Browsers and devices
 
@@ -123,10 +120,9 @@ the application. The production instance is [vaoxr.modavis.org](https://vaoxr.mo
 
 ## Source and data versions
 
-Software version **0.1.0** consumes instrument release **0.5.0-2**, which uses
-VAO Standard **0.5.0**. These versions identify different works. The code keeps
-the existing `PositivXR` data identifiers unchanged so archived files and
-citations continue to resolve.
+Software version **0.2.0** plays the Cuntz instrument release **0.5.0-2**, which
+uses VAO Standard **0.5.0**. The local inspector also reads VAO 0.6.0. The
+instrument's `PositivXR` data identifiers remain the same.
 
 The repository includes release manifests, the runtime index, asset-pipeline
 code, and a pinned subset of the official VAO validator. Large media, Unity
@@ -136,13 +132,9 @@ and [asset pipeline](docs/ASSET_PIPELINE.md).
 
 ## Citation and rights
 
-Ukolov, Dominik (2026). *vaoXR* (0.1.0). Zenodo.
-[10.5281/zenodo.22280620](https://doi.org/10.5281/zenodo.22280620).
+Ukolov, Dominik (2026). *vaoXR* (0.2.0).
+[GitHub release](https://github.com/modavis-project/vaoxr/releases/tag/v0.2.0).
 Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
-
-The DOI is reserved for this release; the Zenodo deposit remains a draft until
-publication. The badge displays the reserved identifier; the DOI link becomes
-active once that deposit is published.
 
 Original code is licensed under [Apache-2.0](LICENSE); original documentation
 is [CC BY 4.0](LICENSES/CC-BY-4.0.txt). [NOTICE](NOTICE) defines their file scope.
